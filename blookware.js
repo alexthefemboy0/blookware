@@ -1,4 +1,4 @@
-console.log("Blookware v1.1.0")
+console.log("Blookware v1.1.1")
 console.log("Loading libraries...")
 // All functions of the hacked client
 function blookrush_setblooks() {
@@ -717,7 +717,7 @@ function towerofdoom_setcoins() {
 }
 function blookware_help() {
     console.log("Blookware Help Menu")
-    console.log("Blookware version 1.1.0")
+    console.log("Blookware version 1.1.1")
     console.log("Developer: Alex Flax (AviaAlex on GitHub)")
     console.log("Blookware is a command-line operated Blooket hack library made with JavaScript.")
     console.log("-------------------------------------------------")
