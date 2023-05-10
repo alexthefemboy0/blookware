@@ -1,4 +1,4 @@
-console.log("Blookware v1.0.2")
+console.log("Blookware v1.1.0")
 console.log("Loading libraries...")
 // All functions of the hacked client
 function blookrush_setblooks() {
@@ -714,6 +714,19 @@ function towerofdoom_setcoins() {
                     alert('You must be in a tower of doom game!');
                 };
     })();
+}
+function blookware_help() {
+    console.log("Blookware Help Menu")
+    console.log("Blookware version 1.1.0")
+    console.log("Developer: Alex Flax (AviaAlex on GitHub)")
+    console.log("Blookware is a command-line operated Blooket hack library made with JavaScript.")
+    console.log("-------------------------------------------------")
+    console.log("Games supported:")
+    console.log("Blook Rush\nCafe\nCrazy Kingdom\nCrypto Hack\nFishing Frenzy\nGold Quest\nRacing\nTower Defense 1\nTower of Doom")
+    console.log("To run the game, type the game name, (i.e cryptohack) with an underscore (_) followed by the hack name.\nYour browser's console should autocomplete it for you.\nExample: cryptohack_setcrypto()")
+}
+function blookware_updatepage() {
+    window.location.replace("http://github.com/AviaAlex/blookware")
 }
 console.log("All libraries loaded!")
 console.log("Blookware finished loading.")
