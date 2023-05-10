@@ -1,4 +1,4 @@
-console.log("Blookware v1.0.0\nMade by Alex Flax")
+console.log("Blookware v1.0.1", "color: blue; font-size: 200%;")
 console.log("Loading libraries...")
 // All functions of the hacked client
 function blookrush_setblooks() {
