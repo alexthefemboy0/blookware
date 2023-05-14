@@ -1,732 +1,676 @@
-console.log("Blookware v1.1.1")
-console.log("Loading libraries...")
-// All functions of the hacked client
+const _0x57306b = _0x255d;
+(function(_0x994a0e, _0x546d51) {
+	const _0x32bfd1 = _0x255d,
+		_0x352642 = _0x994a0e();
+	while (!![]) {
+		try {
+			const _0x287caf = parseInt(_0x32bfd1(0x1b9)) / 0x1 * (-parseInt(_0x32bfd1(0x18d)) / 0x2) + parseInt(_0x32bfd1(0x167)) / 0x3 + parseInt(_0x32bfd1(0x170)) / 0x4 + parseInt(_0x32bfd1(0x195)) / 0x5 * (-parseInt(_0x32bfd1(0x1ac)) / 0x6) + -parseInt(_0x32bfd1(0x156)) / 0x7 * (-parseInt(_0x32bfd1(0x1ff)) / 0x8) + parseInt(_0x32bfd1(0x172)) / 0x9 + -parseInt(_0x32bfd1(0x211)) / 0xa;
+			if (_0x287caf === _0x546d51) break;
+			else _0x352642['push'](_0x352642['shift']());
+		} catch (_0x2fd3a5) {
+			_0x352642['push'](_0x352642['shift']());
+		}
+	}
+}(_0x8b42, 0x94c63), console[_0x57306b(0x1e6)]('Blookware\x20v1.2.0'), console[_0x57306b(0x1e6)](_0x57306b(0x1a1)));
+
 function blookrush_setblooks() {
-    (async () => {
-        let n = document.createElement('iframe');
-        document.body.append(n);
-        window.alert = n.contentWindow.alert.bind(window);
-        window.prompt = n.contentWindow.prompt.bind(window);
-        window.confirm = n.contentWindow.confirm.bind(window);
-        n.remove();
-                function reactHandler() {
-                    return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
-                };
-    
-                if (window.location.pathname != '/play/rush') {
-                    alert('You must be in a blook rush game mode to use this hack!');
-                } else {
-                    let e = reactHandler();
-                    e.stateNode.props.firebase.setVal({
-                        id: e.stateNode.props.client.hostId,
-                        path: 'c/' + e.stateNode.props.client.name + '/bs',
-                        val: Number(parseFloat(prompt('How many blooks do you want?')))
-                    });
-    
-                    alert('Blooks set!');
-                };
-    })();
+	((async () => {
+		const _0x3c4900 = _0x255d;
+		let _0x28f4d4 = document['createElement']('iframe');
+		document[_0x3c4900(0x1d9)][_0x3c4900(0x1f9)](_0x28f4d4), window[_0x3c4900(0x192)] = _0x28f4d4[_0x3c4900(0x177)][_0x3c4900(0x192)][_0x3c4900(0x1ed)](window), window[_0x3c4900(0x173)] = _0x28f4d4[_0x3c4900(0x177)][_0x3c4900(0x173)][_0x3c4900(0x1ed)](window), window[_0x3c4900(0x209)] = _0x28f4d4['contentWindow'][_0x3c4900(0x209)][_0x3c4900(0x1ed)](window), _0x28f4d4['remove']();
+
+		function _0x27d8f0() {
+			const _0x1cbcdd = _0x3c4900;
+			return Object[_0x1cbcdd(0x1af)](document['querySelector']('#app\x20>\x20div\x20>\x20div'))[0x1][_0x1cbcdd(0x1a9)][0x1][_0x1cbcdd(0x1d4)];
+		};
+		if (window[_0x3c4900(0x20c)][_0x3c4900(0x1a4)] != _0x3c4900(0x1f3)) alert(_0x3c4900(0x1f0));
+		else {
+			let _0x539196 = _0x27d8f0();
+			_0x539196[_0x3c4900(0x1d5)]['props'][_0x3c4900(0x178)][_0x3c4900(0x17e)]({
+				'id': _0x539196[_0x3c4900(0x1d5)][_0x3c4900(0x210)][_0x3c4900(0x19f)][_0x3c4900(0x1b2)],
+				'path': 'c/' + _0x539196[_0x3c4900(0x1d5)]['props'][_0x3c4900(0x19f)]['name'] + _0x3c4900(0x1d7),
+				'val': Number(parseFloat(prompt(_0x3c4900(0x1f1))))
+			}), alert('Blooks\x20set!');
+		};
+	})());
 }
+
 function blookrush_setdefense() {
-    (async () => {
-        let n = document.createElement('iframe');
-        document.body.append(n);
-        window.alert = n.contentWindow.alert.bind(window);
-        window.prompt = n.contentWindow.prompt.bind(window);
-        window.confirm = n.contentWindow.confirm.bind(window);
-        n.remove();
-                function reactHandler() {
-                    return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
-                };
-    
-                if (window.location.pathname != '/play/rush') {
-                    alert('You must be in a blook rush game mode to use this hack!');
-                } else {
-                    let e = reactHandler();
-                    e.stateNode.props.firebase.setVal({
-                        id: e.stateNode.props.client.hostId,
-                        path: 'c/' + e.stateNode.props.client.name + '/d',
-                        val: Number(parseFloat(prompt('How much defense do you want?')))
-                    });
-    
-                    alert('Defense set!');
-                };
-    })();
+	((async () => {
+		const _0x4d4499 = _0x255d;
+		let _0x441d67 = document[_0x4d4499(0x162)](_0x4d4499(0x164));
+		document[_0x4d4499(0x1d9)][_0x4d4499(0x1f9)](_0x441d67), window['alert'] = _0x441d67[_0x4d4499(0x177)][_0x4d4499(0x192)][_0x4d4499(0x1ed)](window), window['prompt'] = _0x441d67[_0x4d4499(0x177)]['prompt'][_0x4d4499(0x1ed)](window), window[_0x4d4499(0x209)] = _0x441d67['contentWindow']['confirm'][_0x4d4499(0x1ed)](window), _0x441d67[_0x4d4499(0x1ae)]();
+
+		function _0x1c7a86() {
+			const _0x2dd01e = _0x4d4499;
+			return Object[_0x2dd01e(0x1af)](document[_0x2dd01e(0x17c)](_0x2dd01e(0x1f4)))[0x1][_0x2dd01e(0x1a9)][0x1]['_owner'];
+		};
+		if (window['location'][_0x4d4499(0x1a4)] != _0x4d4499(0x1f3)) alert(_0x4d4499(0x1f0));
+		else {
+			let _0x5d335d = _0x1c7a86();
+			_0x5d335d[_0x4d4499(0x1d5)]['props'][_0x4d4499(0x178)][_0x4d4499(0x17e)]({
+				'id': _0x5d335d[_0x4d4499(0x1d5)][_0x4d4499(0x210)][_0x4d4499(0x19f)][_0x4d4499(0x1b2)],
+				'path': 'c/' + _0x5d335d[_0x4d4499(0x1d5)][_0x4d4499(0x210)][_0x4d4499(0x19f)][_0x4d4499(0x1c8)] + '/d',
+				'val': Number(parseFloat(prompt(_0x4d4499(0x1fe))))
+			}), alert(_0x4d4499(0x20b));
+		};
+	})());
 }
+
 function cafe_infinitefood() {
-    (async () => {
-        let n = document.createElement('iframe');
-        document.body.append(n);
-        window.alert = n.contentWindow.alert.bind(window);
-        window.prompt = n.contentWindow.prompt.bind(window);
-        window.confirm = n.contentWindow.confirm.bind(window);
-        n.remove();
-                function reactHandler() {
-                    return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
-                };
-    
-                if (document.location.pathname != "/cafe") {
-                    alert("You must be in a cafe game!");
-                } else {
-                    reactHandler().stateNode.state.foods.forEach(e => e.stock = 99999);
-                    reactHandler().stateNode.forceUpdate();
-    
-                    alert('Added infinite food level!');
-                }
-    })();
+	((async () => {
+		const _0x3b1321 = _0x255d;
+		let _0x4d6416 = document[_0x3b1321(0x162)]('iframe');
+		document[_0x3b1321(0x1d9)]['append'](_0x4d6416), window[_0x3b1321(0x192)] = _0x4d6416[_0x3b1321(0x177)][_0x3b1321(0x192)][_0x3b1321(0x1ed)](window), window['prompt'] = _0x4d6416[_0x3b1321(0x177)][_0x3b1321(0x173)][_0x3b1321(0x1ed)](window), window['confirm'] = _0x4d6416[_0x3b1321(0x177)][_0x3b1321(0x209)][_0x3b1321(0x1ed)](window), _0x4d6416['remove']();
+
+		function _0x1dcef9() {
+			const _0x26a0cd = _0x3b1321;
+			return Object['values'](document['querySelector'](_0x26a0cd(0x1f4)))[0x1]['children'][0x1][_0x26a0cd(0x1d4)];
+		};
+		document[_0x3b1321(0x20c)][_0x3b1321(0x1a4)] != _0x3b1321(0x1c3) ? alert(_0x3b1321(0x188)) : (_0x1dcef9()[_0x3b1321(0x1d5)][_0x3b1321(0x1fc)]['foods']['forEach'](_0x7ea704 => _0x7ea704['stock'] = 0x1869f), _0x1dcef9()[_0x3b1321(0x1d5)][_0x3b1321(0x1e5)](), alert(_0x3b1321(0x1e8)));
+	})());
 }
+
 function cafe_setcash() {
-    (async () => {
-        let n = document.createElement('iframe');
-        document.body.append(n);
-        window.alert = n.contentWindow.alert.bind(window);
-        window.prompt = n.contentWindow.prompt.bind(window);
-        window.confirm = n.contentWindow.confirm.bind(window);
-        n.remove();
-                function reactHandler() {
-                    return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
-                };
+	((async () => {
+		const _0x41acbb = _0x255d;
+		let _0x3bdf8a = document[_0x41acbb(0x162)](_0x41acbb(0x164));
+		document[_0x41acbb(0x1d9)][_0x41acbb(0x1f9)](_0x3bdf8a), window['alert'] = _0x3bdf8a[_0x41acbb(0x177)][_0x41acbb(0x192)]['bind'](window), window['prompt'] = _0x3bdf8a[_0x41acbb(0x177)][_0x41acbb(0x173)][_0x41acbb(0x1ed)](window), window[_0x41acbb(0x209)] = _0x3bdf8a['contentWindow'][_0x41acbb(0x209)][_0x41acbb(0x1ed)](window), _0x3bdf8a[_0x41acbb(0x1ae)]();
 
-                if (document.location.pathname != "/cafe") {
-                    alert("You must be in a cafe game!");
-                } else {
-                    reactHandler().stateNode.setState({ cafeCash: Number(parseFloat(prompt('How much cash would you like?'))) });
-
-
-                    alert('Added cash!');
-                };
-    })();
+		function _0x27c313() {
+			const _0x2f4b17 = _0x41acbb;
+			return Object[_0x2f4b17(0x1af)](document[_0x2f4b17(0x17c)](_0x2f4b17(0x1f4)))[0x1]['children'][0x1][_0x2f4b17(0x1d4)];
+		};
+		document[_0x41acbb(0x20c)][_0x41acbb(0x1a4)] != _0x41acbb(0x1c3) ? alert(_0x41acbb(0x188)) : (_0x27c313()[_0x41acbb(0x1d5)][_0x41acbb(0x1b8)]({
+			'cafeCash': Number(parseFloat(prompt(_0x41acbb(0x1c6))))
+		}), alert(_0x41acbb(0x1fa)));;
+	})());
 }
+
 function crazykingdom_maxstats() {
-    (async () => {
-        let n = document.createElement('iframe');
-        document.body.append(n);
-        window.alert = n.contentWindow.alert.bind(window);
-        window.prompt = n.contentWindow.prompt.bind(window);
-        window.confirm = n.contentWindow.confirm.bind(window);
-        n.remove();
-                function reactHandler() {
-                    return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
-                };
-            
-                if (window.location.pathname != '/kingdom') {
-                    alert('You must be in a crazy kingdom game!');
-                } else {
-                    reactHandler().stateNode.setState({ materials: 100, people: 100, happiness: 100, gold: 100 });
-            
-                    alert('max stats set!');
-                };
-    })();    
+	((async () => {
+		const _0x170104 = _0x255d;
+		let _0x1aec6a = document[_0x170104(0x162)]('iframe');
+		document[_0x170104(0x1d9)][_0x170104(0x1f9)](_0x1aec6a), window[_0x170104(0x192)] = _0x1aec6a['contentWindow'][_0x170104(0x192)][_0x170104(0x1ed)](window), window[_0x170104(0x173)] = _0x1aec6a[_0x170104(0x177)][_0x170104(0x173)]['bind'](window), window['confirm'] = _0x1aec6a[_0x170104(0x177)][_0x170104(0x209)][_0x170104(0x1ed)](window), _0x1aec6a[_0x170104(0x1ae)]();
+
+		function _0x5abe31() {
+			const _0x524e90 = _0x170104;
+			return Object[_0x524e90(0x1af)](document[_0x524e90(0x17c)](_0x524e90(0x1f4)))[0x1][_0x524e90(0x1a9)][0x1][_0x524e90(0x1d4)];
+		};
+		window[_0x170104(0x20c)][_0x170104(0x1a4)] != _0x170104(0x1f5) ? alert(_0x170104(0x15d)) : (_0x5abe31()['stateNode'][_0x170104(0x1b8)]({
+			'materials': 0x64,
+			'people': 0x64,
+			'happiness': 0x64,
+			'gold': 0x64
+		}), alert(_0x170104(0x1b1)));;
+	})());
 }
+
 function crazykingdom_setguests() {
-    (async () => {
-        let n = document.createElement('iframe');
-        document.body.append(n);
-        window.alert = n.contentWindow.alert.bind(window);
-        window.prompt = n.contentWindow.prompt.bind(window);
-        window.confirm = n.contentWindow.confirm.bind(window);
-        n.remove();
-                function reactHandler() {
-                    return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
-                };
-            
-                if (window.location.pathname != '/kingdom') {
-                    alert('You must be in a crazy kingdom game!');
-                } else {
-                    let guestScore = Number(parseFloat(prompt('How many guests do you want?')));
-                    reactHandler().stateNode.setState({ guestScore });
-            
-                    alert('Guests set!');
-                };
-    })();
+	((async () => {
+		const _0x140f5e = _0x255d;
+		let _0xfd3b88 = document['createElement'](_0x140f5e(0x164));
+		document['body'][_0x140f5e(0x1f9)](_0xfd3b88), window[_0x140f5e(0x192)] = _0xfd3b88[_0x140f5e(0x177)][_0x140f5e(0x192)][_0x140f5e(0x1ed)](window), window[_0x140f5e(0x173)] = _0xfd3b88[_0x140f5e(0x177)]['prompt'][_0x140f5e(0x1ed)](window), window['confirm'] = _0xfd3b88[_0x140f5e(0x177)]['confirm'][_0x140f5e(0x1ed)](window), _0xfd3b88[_0x140f5e(0x1ae)]();
+
+		function _0x5500de() {
+			const _0x169e73 = _0x140f5e;
+			return Object['values'](document[_0x169e73(0x17c)](_0x169e73(0x1f4)))[0x1][_0x169e73(0x1a9)][0x1][_0x169e73(0x1d4)];
+		};
+		if (window['location'][_0x140f5e(0x1a4)] != '/kingdom') alert(_0x140f5e(0x15d));
+		else {
+			let _0x37261b = Number(parseFloat(prompt(_0x140f5e(0x153))));
+			_0x5500de()[_0x140f5e(0x1d5)][_0x140f5e(0x1b8)]({
+				'guestScore': _0x37261b
+			}), alert('Guests\x20set!');
+		};
+	})());
 }
+
 function crazykingdom_skipguest() {
-    (async () => {
-        let n = document.createElement('iframe');
-        document.body.append(n);
-        window.alert = n.contentWindow.alert.bind(window);
-        window.prompt = n.contentWindow.prompt.bind(window);
-        window.confirm = n.contentWindow.confirm.bind(window);
-        n.remove();
-                function reactHandler() {
-                    return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
-                };
-    
-                if (window.location.pathname != '/kingdom') {
-                    alert('You must be in a crazy kingdom game!');
-                } else {
-                    reactHandler().stateNode.nextGuest();
-    
-                    alert('Guest skipped!');
-                };
-    })();
+	((async () => {
+		const _0x3875ef = _0x255d;
+		let _0x38cd48 = document['createElement']('iframe');
+		document[_0x3875ef(0x1d9)][_0x3875ef(0x1f9)](_0x38cd48), window[_0x3875ef(0x192)] = _0x38cd48['contentWindow'][_0x3875ef(0x192)][_0x3875ef(0x1ed)](window), window[_0x3875ef(0x173)] = _0x38cd48[_0x3875ef(0x177)][_0x3875ef(0x173)]['bind'](window), window['confirm'] = _0x38cd48['contentWindow'][_0x3875ef(0x209)][_0x3875ef(0x1ed)](window), _0x38cd48['remove']();
+
+		function _0x190b6b() {
+			const _0x48c527 = _0x3875ef;
+			return Object[_0x48c527(0x1af)](document[_0x48c527(0x17c)](_0x48c527(0x1f4)))[0x1][_0x48c527(0x1a9)][0x1][_0x48c527(0x1d4)];
+		};
+		window[_0x3875ef(0x20c)][_0x3875ef(0x1a4)] != _0x3875ef(0x1f5) ? alert('You\x20must\x20be\x20in\x20a\x20crazy\x20kingdom\x20game!') : (_0x190b6b()[_0x3875ef(0x1d5)][_0x3875ef(0x189)](), alert(_0x3875ef(0x202)));;
+	})());
 }
+
 function cryptohack_setcrypto() {
-    (async () => {
-        let n = document.createElement('iframe');
-        document.body.append(n);
-        window.alert = n.contentWindow.alert.bind(window);
-        window.prompt = n.contentWindow.prompt.bind(window);
-        window.confirm = n.contentWindow.confirm.bind(window);
-        n.remove();
-                function reactHandler() {
-                    return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
-                };
-            
-                if (window.location.pathname != '/play/hack') {
-                    alert('You must be in a crypto hack game mode to use this hack!');
-                } else {
-                    let amount = Number(parseFloat(prompt('How much crypto do you want?')));
-                    reactHandler().stateNode.setState({ crypto2: amount, crypto: amount });
-            
-                    alert('Crypto added!');
-                };
-    })();
+	((async () => {
+		const _0x18701e = _0x255d;
+		let _0x4f5a9f = document[_0x18701e(0x162)](_0x18701e(0x164));
+		document[_0x18701e(0x1d9)]['append'](_0x4f5a9f), window[_0x18701e(0x192)] = _0x4f5a9f[_0x18701e(0x177)][_0x18701e(0x192)][_0x18701e(0x1ed)](window), window['prompt'] = _0x4f5a9f[_0x18701e(0x177)][_0x18701e(0x173)][_0x18701e(0x1ed)](window), window[_0x18701e(0x209)] = _0x4f5a9f[_0x18701e(0x177)][_0x18701e(0x209)]['bind'](window), _0x4f5a9f['remove']();
+
+		function _0x15bfba() {
+			const _0x1647fb = _0x18701e;
+			return Object[_0x1647fb(0x1af)](document[_0x1647fb(0x17c)]('#app\x20>\x20div\x20>\x20div'))[0x1]['children'][0x1][_0x1647fb(0x1d4)];
+		};
+		if (window[_0x18701e(0x20c)]['pathname'] != _0x18701e(0x186)) alert(_0x18701e(0x16e));
+		else {
+			let _0x377639 = Number(parseFloat(prompt(_0x18701e(0x1d1))));
+			_0x15bfba()[_0x18701e(0x1d5)]['setState']({
+				'crypto2': _0x377639,
+				'crypto': _0x377639
+			}), alert(_0x18701e(0x1d0));
+		};
+	})());
 }
+
 function fishingfrenzy_setlure() {
-    (async () => {
-        let n = document.createElement('iframe');
-        document.body.append(n);
-        window.alert = n.contentWindow.alert.bind(window);
-        window.prompt = n.contentWindow.prompt.bind(window);
-        window.confirm = n.contentWindow.confirm.bind(window);
-        n.remove();
-                function reactHandler() {
-                    return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
-                };
-            
-                if (window.location.pathname != '/play/fishing') {
-                    alert('You must be in a fishing frenzy game!');
-                } else {
-                    let lure = Number(parseFloat(prompt('What do you want to set your lure to? (1 - 5)'))) - 1;
-                    reactHandler().stateNode.setState({ lure: lure < 0 ? 0 : lure > 4 ? 4 : lure });
-            
-                    alert('Lure set!');
-                };
-    })();
+	((async () => {
+		const _0x42ad65 = _0x255d;
+		let _0x523b81 = document[_0x42ad65(0x162)](_0x42ad65(0x164));
+		document[_0x42ad65(0x1d9)][_0x42ad65(0x1f9)](_0x523b81), window['alert'] = _0x523b81['contentWindow'][_0x42ad65(0x192)]['bind'](window), window[_0x42ad65(0x173)] = _0x523b81[_0x42ad65(0x177)][_0x42ad65(0x173)][_0x42ad65(0x1ed)](window), window['confirm'] = _0x523b81[_0x42ad65(0x177)][_0x42ad65(0x209)][_0x42ad65(0x1ed)](window), _0x523b81[_0x42ad65(0x1ae)]();
+
+		function _0x562158() {
+			const _0x6cbf57 = _0x42ad65;
+			return Object[_0x6cbf57(0x1af)](document[_0x6cbf57(0x17c)](_0x6cbf57(0x1f4)))[0x1]['children'][0x1][_0x6cbf57(0x1d4)];
+		};
+		if (window[_0x42ad65(0x20c)][_0x42ad65(0x1a4)] != _0x42ad65(0x1a8)) alert(_0x42ad65(0x197));
+		else {
+			let _0x12babf = Number(parseFloat(prompt(_0x42ad65(0x203)))) - 0x1;
+			_0x562158()[_0x42ad65(0x1d5)]['setState']({
+				'lure': _0x12babf < 0x0 ? 0x0 : _0x12babf > 0x4 ? 0x4 : _0x12babf
+			}), alert(_0x42ad65(0x15e));
+		};
+	})());
 }
+
 function fishingfrenzy_setweight() {
-    (async () => {
-        let n = document.createElement('iframe');
-        document.body.append(n);
-        window.alert = n.contentWindow.alert.bind(window);
-        window.prompt = n.contentWindow.prompt.bind(window);
-        window.confirm = n.contentWindow.confirm.bind(window);
-        n.remove();
-                function reactHandler() {
-                    return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
-                };
-            
-                if (window.location.pathname != '/play/fishing') {
-                    alert('You must be in a fishing frenzy game!');
-                } else {
-                    let weight = Number(parseFloat(prompt('How much weight do you want?')));
-                    reactHandler().stateNode.setState({ weight2: weight, weight });
-            
-                    alert('Weight set!');
-                };
-    })();    
+	((async () => {
+		const _0x50d4eb = _0x255d;
+		let _0xceb7f = document['createElement'](_0x50d4eb(0x164));
+		document[_0x50d4eb(0x1d9)][_0x50d4eb(0x1f9)](_0xceb7f), window[_0x50d4eb(0x192)] = _0xceb7f['contentWindow'][_0x50d4eb(0x192)][_0x50d4eb(0x1ed)](window), window[_0x50d4eb(0x173)] = _0xceb7f[_0x50d4eb(0x177)][_0x50d4eb(0x173)]['bind'](window), window[_0x50d4eb(0x209)] = _0xceb7f['contentWindow'][_0x50d4eb(0x209)][_0x50d4eb(0x1ed)](window), _0xceb7f[_0x50d4eb(0x1ae)]();
+
+		function _0x35315f() {
+			const _0x175ab9 = _0x50d4eb;
+			return Object[_0x175ab9(0x1af)](document[_0x175ab9(0x17c)](_0x175ab9(0x1f4)))[0x1]['children'][0x1][_0x175ab9(0x1d4)];
+		};
+		if (window['location'][_0x50d4eb(0x1a4)] != _0x50d4eb(0x1a8)) alert(_0x50d4eb(0x197));
+		else {
+			let _0x1a8a32 = Number(parseFloat(prompt('How\x20much\x20weight\x20do\x20you\x20want?')));
+			_0x35315f()[_0x50d4eb(0x1d5)][_0x50d4eb(0x1b8)]({
+				'weight2': _0x1a8a32,
+				'weight': _0x1a8a32
+			}), alert(_0x50d4eb(0x1da));
+		};
+	})());
 }
+
 function globalstats_addtokens() {
-    (async () => {
-        let n = document.createElement('iframe');
-        document.body.append(n);
-        window.alert = n.contentWindow.alert.bind(window);
-        window.prompt = n.contentWindow.prompt.bind(window);
-        window.confirm = n.contentWindow.confirm.bind(window);
-        n.remove();
-    
-        var getValues = () => new Promise((e, t) => {
-            try {
-                let n = window.webpackJsonp.map(e => Object.keys(e[1]).map(t => e[1][t])).reduce((e, t) => [...e, ...t], []).find(e => /\w{8}-\w{4}-\w{4}-\w{4}-\w{12}/.test(e.toString()) && /\(new TextEncoder\)\.encode\(\"(.+?)\"\)/.test(e.toString())).toString();
-                e({
-                    blooketBuild: n.match(/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}/)[0],
-                    secret: n.match(/\(new TextEncoder\)\.encode\(\"(.+?)\"\)/)[1]
-                })
-            } catch {
-                t("Could not fetch auth details")
-            }
-        })
-        var encodeValues = async (e, t) => {
-            let d = window.crypto.getRandomValues(new Uint8Array(12));
-            return window.btoa(Array.from(d).map(e => String.fromCharCode(e)).join("") + Array.from(new Uint8Array(await window.crypto.subtle.encrypt({
-                name: "AES-GCM",
-                iv: d
-            }, await window.crypto.subtle.importKey("raw", await window.crypto.subtle.digest("SHA-256", (new TextEncoder).encode(t)), {
-                name: "AES-GCM"
-            }, !1, ["encrypt"]), (new TextEncoder).encode(JSON.stringify(e))))).map(e => String.fromCharCode(e)).join(""))
-        };
-                fetch("https://api.blooket.com/api/users", { credentials: "include" }).then(x => x.json()).then(x => {
-                    getValues().then(async e => {
-                        fetch("https://api.blooket.com/api/users/add-rewards", {
-                            method: "put",
-                            credentials: "include",
-                            headers: {
-                                "content-type": "application/json",
-                                "X-Blooket-Build": e.blooketBuild
-                            },
-                            body: await encodeValues({
-                                name: x.name,
-                                addedTokens: 500,
-                                addedXp: 300
-                            }, e.secret)
-                        });
-                        fetch("https://api.blooket.com/api/users/add-rewards", {
-                            method: "put",
-                            credentials: "include",
-                            headers: {
-                                "content-type": "application/json",
-                                "X-Blooket-Build": e.blooketBuild
-                            },
-                            body: await encodeValues({
-                                name: x.name,
-                                addedTokens: 500,
-                                addedXp: 300
-                            }, e.secret)
-                        }).then(() => alert('Added daily rewards!')).catch(() => alert('There was an error when adding rewards!'));;
-                    }).catch(() => alert('There was an error encoding requests!'));
-                }).catch(() => alert('There was an error getting username!'));
-    })();
+	((async () => {
+		const _0x3c17d1 = _0x255d;
+		let _0x3b0c02 = document['createElement']('iframe');
+		document[_0x3c17d1(0x1d9)][_0x3c17d1(0x1f9)](_0x3b0c02), window[_0x3c17d1(0x192)] = _0x3b0c02[_0x3c17d1(0x177)][_0x3c17d1(0x192)][_0x3c17d1(0x1ed)](window), window[_0x3c17d1(0x173)] = _0x3b0c02['contentWindow'][_0x3c17d1(0x173)]['bind'](window), window['confirm'] = _0x3b0c02['contentWindow'][_0x3c17d1(0x209)][_0x3c17d1(0x1ed)](window), _0x3b0c02[_0x3c17d1(0x1ae)]();
+		var _0x5f268e = () => new Promise((_0x1ceabc, _0x209828) => {
+				const _0x301fba = _0x3c17d1;
+				try {
+					let _0x4afcdb = window[_0x301fba(0x194)]['map'](_0x4fb4d4 => Object[_0x301fba(0x19d)](_0x4fb4d4[0x1])[_0x301fba(0x1ca)](_0x5b5b6b => _0x4fb4d4[0x1][_0x5b5b6b]))[_0x301fba(0x1e3)]((_0x322166, _0x45cec8) => [..._0x322166, ..._0x45cec8], [])[_0x301fba(0x168)](_0x3e9d3d => /\w{8}-\w{4}-\w{4}-\w{4}-\w{12}/ [_0x301fba(0x159)](_0x3e9d3d[_0x301fba(0x1a2)]()) && /\(new TextEncoder\)\.encode\(\"(.+?)\"\)/ [_0x301fba(0x159)](_0x3e9d3d[_0x301fba(0x1a2)]()))[_0x301fba(0x1a2)]();
+					_0x1ceabc({
+						'blooketBuild': _0x4afcdb[_0x301fba(0x1be)](/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}/)[0x0],
+						'secret': _0x4afcdb[_0x301fba(0x1be)](/\(new TextEncoder\)\.encode\(\"(.+?)\"\)/)[0x1]
+					});
+				} catch {
+					_0x209828(_0x301fba(0x200));
+				}
+			}),
+			_0x3899e2 = async (_0x205409, _0x5db7c7) => {
+				const _0x25aab3 = _0x3c17d1;
+				let _0x2c2a8a = window[_0x25aab3(0x19a)][_0x25aab3(0x1dd)](new Uint8Array(0xc));
+				return window[_0x25aab3(0x1de)](Array[_0x25aab3(0x17d)](_0x2c2a8a)[_0x25aab3(0x1ca)](_0x5f1ab3 => String['fromCharCode'](_0x5f1ab3))[_0x25aab3(0x1ab)]('') + Array[_0x25aab3(0x17d)](new Uint8Array(await window['crypto'][_0x25aab3(0x1bf)]['encrypt']({
+					'name': _0x25aab3(0x193),
+					'iv': _0x2c2a8a
+				}, await window[_0x25aab3(0x19a)][_0x25aab3(0x1bf)][_0x25aab3(0x19e)](_0x25aab3(0x1df), await window['crypto']['subtle']['digest']('SHA-256', new TextEncoder()[_0x25aab3(0x165)](_0x5db7c7)), {
+					'name': 'AES-GCM'
+				}, !0x1, [_0x25aab3(0x1a5)]), new TextEncoder()[_0x25aab3(0x165)](JSON[_0x25aab3(0x1ba)](_0x205409)))))[_0x25aab3(0x1ca)](_0x3cce73 => String[_0x25aab3(0x1ef)](_0x3cce73))[_0x25aab3(0x1ab)](''));
+			};
+		fetch(_0x3c17d1(0x1cd), {
+			'credentials': _0x3c17d1(0x1c2)
+		})[_0x3c17d1(0x1c5)](_0x39ae65 => _0x39ae65[_0x3c17d1(0x1d8)]())['then'](_0xa094c5 => {
+			const _0x1b1747 = _0x3c17d1;
+			_0x5f268e()[_0x1b1747(0x1c5)](async _0x52fffb => {
+				const _0x468b89 = _0x1b1747;
+				fetch(_0x468b89(0x1f2), {
+					'method': _0x468b89(0x181),
+					'credentials': _0x468b89(0x1c2),
+					'headers': {
+						'content-type': _0x468b89(0x1b0),
+						'X-Blooket-Build': _0x52fffb[_0x468b89(0x1d3)]
+					},
+					'body': await _0x3899e2({
+						'name': _0xa094c5['name'],
+						'addedTokens': 0x1f4,
+						'addedXp': 0x12c
+					}, _0x52fffb[_0x468b89(0x18f)])
+				}), fetch(_0x468b89(0x1f2), {
+					'method': _0x468b89(0x181),
+					'credentials': 'include',
+					'headers': {
+						'content-type': _0x468b89(0x1b0),
+						'X-Blooket-Build': _0x52fffb['blooketBuild']
+					},
+					'body': await _0x3899e2({
+						'name': _0xa094c5[_0x468b89(0x1c8)],
+						'addedTokens': 0x1f4,
+						'addedXp': 0x12c
+					}, _0x52fffb[_0x468b89(0x18f)])
+				})['then'](() => alert(_0x468b89(0x15a)))[_0x468b89(0x208)](() => alert(_0x468b89(0x20e)));;
+			})[_0x1b1747(0x208)](() => alert(_0x1b1747(0x1a0)));
+		})[_0x3c17d1(0x208)](() => alert(_0x3c17d1(0x1bb)));
+	})());
 }
+
 function globalstats_unlockallblooks() {
-    (async () => {
-        let n = document.createElement('iframe');
-        document.body.append(n);
-        window.alert = n.contentWindow.alert.bind(window);
-        window.prompt = n.contentWindow.prompt.bind(window);
-        window.confirm = n.contentWindow.confirm.bind(window);
-        n.remove();
-                function reactHandler() {
-                    return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
-                };
-    
-                if (!window.location.pathname.split('/').includes('lobby')) return alert('You must be in a game lobby! (e.g. https://www.blooket.com/play/lobby)');
-    
-                reactHandler().stateNode.setState({ lockedBlooks: [], takenBlooks: [] });
-                alert('Blooks unlocked!');
-    })();    
+	((async () => {
+		const _0x1309d9 = _0x255d;
+		let _0x4bed17 = document[_0x1309d9(0x162)](_0x1309d9(0x164));
+		document['body'][_0x1309d9(0x1f9)](_0x4bed17), window[_0x1309d9(0x192)] = _0x4bed17['contentWindow']['alert'][_0x1309d9(0x1ed)](window), window[_0x1309d9(0x173)] = _0x4bed17['contentWindow'][_0x1309d9(0x173)][_0x1309d9(0x1ed)](window), window['confirm'] = _0x4bed17['contentWindow'][_0x1309d9(0x209)]['bind'](window), _0x4bed17[_0x1309d9(0x1ae)]();
+
+		function _0x28aaf9() {
+			const _0x243d7f = _0x1309d9;
+			return Object[_0x243d7f(0x1af)](document[_0x243d7f(0x17c)](_0x243d7f(0x1f4)))[0x1][_0x243d7f(0x1a9)][0x1]['_owner'];
+		};
+		if (!window[_0x1309d9(0x20c)][_0x1309d9(0x1a4)][_0x1309d9(0x206)]('/')[_0x1309d9(0x1e1)](_0x1309d9(0x157))) return alert(_0x1309d9(0x18e));
+		_0x28aaf9()['stateNode'][_0x1309d9(0x1b8)]({
+			'lockedBlooks': [],
+			'takenBlooks': []
+		}), alert(_0x1309d9(0x16c));
+	})());
 }
+
 function globalstats_selldupeblooks() {
-    (async () => {
-        let n = document.createElement('iframe');
-        document.body.append(n);
-        window.alert = n.contentWindow.alert.bind(window);
-        window.prompt = n.contentWindow.prompt.bind(window);
-        window.confirm = n.contentWindow.confirm.bind(window);
-        n.remove();
-    
-        var getValues = () => new Promise((e, t) => {
-            try {
-                let n = window.webpackJsonp.map(e => Object.keys(e[1]).map(t => e[1][t])).reduce((e, t) => [...e, ...t], []).find(e => /\w{8}-\w{4}-\w{4}-\w{4}-\w{12}/.test(e.toString()) && /\(new TextEncoder\)\.encode\(\"(.+?)\"\)/.test(e.toString())).toString();
-                e({
-                    blooketBuild: n.match(/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}/)[0],
-                    secret: n.match(/\(new TextEncoder\)\.encode\(\"(.+?)\"\)/)[1]
-                })
-            } catch {
-                t("Could not fetch auth details")
-            }
-        })
-        var encodeValues = async (e, t) => {
-            let d = window.crypto.getRandomValues(new Uint8Array(12));
-            return window.btoa(Array.from(d).map(e => String.fromCharCode(e)).join("") + Array.from(new Uint8Array(await window.crypto.subtle.encrypt({
-                name: "AES-GCM",
-                iv: d
-            }, await window.crypto.subtle.importKey("raw", await window.crypto.subtle.digest("SHA-256", (new TextEncoder).encode(t)), {
-                name: "AES-GCM"
-            }, !1, ["encrypt"]), (new TextEncoder).encode(JSON.stringify(e))))).map(e => String.fromCharCode(e)).join(""))
-        };
-                fetch("https://api.blooket.com/api/users", { credentials: "include" }).then(x => x.json()).then(x => {
-                    let blooks = Object.entries(x.unlocks).map(x => [x[0], x[1] - 1]).filter(x => x[1] > 0);
-                    let wait = ms => new Promise(r => setTimeout(r, ms));
-                    getValues().then(async e => {
-                        let error = false;
-                        alert('Selling duplicate blooks, please wait');
-                        for (let [blook, numSold] of blooks) {
-                            fetch("https://api.blooket.com/api/users/sellblook", {
-                                method: "put",
-                                credentials: "include",
-                                headers: {
-                                    "content-type": "application/json",
-                                    "X-Blooket-Build": e.blooketBuild
-                                },
-                                body: await encodeValues({
-                                    name: x.name,
-                                    blook,
-                                    numSold
-                                }, e.secret)
-                            }).catch(() => { error = true });
-                            await wait(750);
-                            if (error) break;
-                        }
-                        alert(`Results:\n` + blooks.map((x) => `    ${x[1]} ${x[0]}`).join(`\n`));
-                    }).catch(() => alert('There was an error encoding requests!'));
-                }).catch(() => alert('There was an error getting user data!'));
-    })();
+	((async () => {
+		const _0x2d8ed0 = _0x255d;
+		let _0x16eda2 = document[_0x2d8ed0(0x162)](_0x2d8ed0(0x164));
+		document[_0x2d8ed0(0x1d9)][_0x2d8ed0(0x1f9)](_0x16eda2), window[_0x2d8ed0(0x192)] = _0x16eda2[_0x2d8ed0(0x177)][_0x2d8ed0(0x192)][_0x2d8ed0(0x1ed)](window), window[_0x2d8ed0(0x173)] = _0x16eda2[_0x2d8ed0(0x177)][_0x2d8ed0(0x173)]['bind'](window), window['confirm'] = _0x16eda2['contentWindow'][_0x2d8ed0(0x209)][_0x2d8ed0(0x1ed)](window), _0x16eda2[_0x2d8ed0(0x1ae)]();
+		var _0x2f632d = () => new Promise((_0x4e3e9, _0x301537) => {
+				const _0x35ee12 = _0x2d8ed0;
+				try {
+					let _0xe2f0e1 = window[_0x35ee12(0x194)][_0x35ee12(0x1ca)](_0x5e7715 => Object[_0x35ee12(0x19d)](_0x5e7715[0x1])[_0x35ee12(0x1ca)](_0x5a37df => _0x5e7715[0x1][_0x5a37df]))[_0x35ee12(0x1e3)]((_0x5c71c6, _0x27325b) => [..._0x5c71c6, ..._0x27325b], [])[_0x35ee12(0x168)](_0x403b39 => /\w{8}-\w{4}-\w{4}-\w{4}-\w{12}/ [_0x35ee12(0x159)](_0x403b39[_0x35ee12(0x1a2)]()) && /\(new TextEncoder\)\.encode\(\"(.+?)\"\)/ [_0x35ee12(0x159)](_0x403b39[_0x35ee12(0x1a2)]()))[_0x35ee12(0x1a2)]();
+					_0x4e3e9({
+						'blooketBuild': _0xe2f0e1['match'](/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}/)[0x0],
+						'secret': _0xe2f0e1[_0x35ee12(0x1be)](/\(new TextEncoder\)\.encode\(\"(.+?)\"\)/)[0x1]
+					});
+				} catch {
+					_0x301537(_0x35ee12(0x200));
+				}
+			}),
+			_0x28e760 = async (_0x47256f, _0x401b2f) => {
+				const _0x97f378 = _0x2d8ed0;
+				let _0x3712e7 = window['crypto'][_0x97f378(0x1dd)](new Uint8Array(0xc));
+				return window[_0x97f378(0x1de)](Array[_0x97f378(0x17d)](_0x3712e7)[_0x97f378(0x1ca)](_0x40997b => String['fromCharCode'](_0x40997b))[_0x97f378(0x1ab)]('') + Array[_0x97f378(0x17d)](new Uint8Array(await window[_0x97f378(0x19a)][_0x97f378(0x1bf)][_0x97f378(0x1a5)]({
+					'name': _0x97f378(0x193),
+					'iv': _0x3712e7
+				}, await window[_0x97f378(0x19a)]['subtle'][_0x97f378(0x19e)](_0x97f378(0x1df), await window['crypto'][_0x97f378(0x1bf)][_0x97f378(0x1cc)](_0x97f378(0x1c9), new TextEncoder()[_0x97f378(0x165)](_0x401b2f)), {
+					'name': _0x97f378(0x193)
+				}, !0x1, [_0x97f378(0x1a5)]), new TextEncoder()[_0x97f378(0x165)](JSON[_0x97f378(0x1ba)](_0x47256f)))))[_0x97f378(0x1ca)](_0x1522e1 => String[_0x97f378(0x1ef)](_0x1522e1))[_0x97f378(0x1ab)](''));
+			};
+		fetch(_0x2d8ed0(0x1cd), {
+			'credentials': _0x2d8ed0(0x1c2)
+		})[_0x2d8ed0(0x1c5)](_0x52796b => _0x52796b[_0x2d8ed0(0x1d8)]())[_0x2d8ed0(0x1c5)](_0x52ea37 => {
+			const _0x3b6f4e = _0x2d8ed0;
+			let _0x2fd04d = Object[_0x3b6f4e(0x171)](_0x52ea37[_0x3b6f4e(0x158)])[_0x3b6f4e(0x1ca)](_0x3c3556 => [_0x3c3556[0x0], _0x3c3556[0x1] - 0x1])[_0x3b6f4e(0x213)](_0x1a78b0 => _0x1a78b0[0x1] > 0x0),
+				_0x22f046 = _0x27685c => new Promise(_0x2265c9 => setTimeout(_0x2265c9, _0x27685c));
+			_0x2f632d()[_0x3b6f4e(0x1c5)](async _0xcc920c => {
+				const _0x495c39 = _0x3b6f4e;
+				let _0x5ee1df = ![];
+				alert(_0x495c39(0x16d));
+				for (let [_0x481747, _0x2b8c71] of _0x2fd04d) {
+					fetch(_0x495c39(0x169), {
+						'method': 'put',
+						'credentials': _0x495c39(0x1c2),
+						'headers': {
+							'content-type': 'application/json',
+							'X-Blooket-Build': _0xcc920c[_0x495c39(0x1d3)]
+						},
+						'body': await _0x28e760({
+							'name': _0x52ea37['name'],
+							'blook': _0x481747,
+							'numSold': _0x2b8c71
+						}, _0xcc920c[_0x495c39(0x18f)])
+					})[_0x495c39(0x208)](() => {
+						_0x5ee1df = !![];
+					}), await _0x22f046(0x2ee);
+					if (_0x5ee1df) break;
+				}
+				alert('Results:\x0a' + _0x2fd04d[_0x495c39(0x1ca)](_0x545110 => '\x20\x20\x20\x20' + _0x545110[0x1] + '\x20' + _0x545110[0x0])[_0x495c39(0x1ab)]('\x0a'));
+			})[_0x3b6f4e(0x208)](() => alert('There\x20was\x20an\x20error\x20encoding\x20requests!'));
+		})[_0x2d8ed0(0x208)](() => alert(_0x2d8ed0(0x191)));
+	})());
 }
+
 function globalstats_spamopenboxes() {
-    (async () => {
-        let n = document.createElement('iframe');
-        document.body.append(n);
-        window.alert = n.contentWindow.alert.bind(window);
-        window.prompt = n.contentWindow.prompt.bind(window);
-        window.confirm = n.contentWindow.confirm.bind(window);
-        n.remove();
-    
-        var getValues = () => new Promise((e, t) => {
-            try {
-                let n = window.webpackJsonp.map(e => Object.keys(e[1]).map(t => e[1][t])).reduce((e, t) => [...e, ...t], []).find(e => /\w{8}-\w{4}-\w{4}-\w{4}-\w{12}/.test(e.toString()) && /\(new TextEncoder\)\.encode\(\"(.+?)\"\)/.test(e.toString())).toString();
-                e({
-                    blooketBuild: n.match(/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}/)[0],
-                    secret: n.match(/\(new TextEncoder\)\.encode\(\"(.+?)\"\)/)[1]
-                })
-            } catch {
-                t("Could not fetch auth details")
-            }
-        })
-        var encodeValues = async (e, t) => {
-            let d = window.crypto.getRandomValues(new Uint8Array(12));
-            return window.btoa(Array.from(d).map(e => String.fromCharCode(e)).join("") + Array.from(new Uint8Array(await window.crypto.subtle.encrypt({
-                name: "AES-GCM",
-                iv: d
-            }, await window.crypto.subtle.importKey("raw", await window.crypto.subtle.digest("SHA-256", (new TextEncoder).encode(t)), {
-                name: "AES-GCM"
-            }, !1, ["encrypt"]), (new TextEncoder).encode(JSON.stringify(e))))).map(e => String.fromCharCode(e)).join(""))
-        };
-                let box = prompt(`Which box do you want to open? (e.g. Space)`);
-                let boxes = {
-                    safari: 25,
-                    aquatic: 20,
-                    bot: 20,
-                    space: 20,
-                    breakfast: 15,
-                    medieval: 15,
-                    wonderland: 15,
-                    dino: 25
-                }
-                if (!Object.keys(boxes).includes(box.toLowerCase())) return alert('I could not find that box!');
-                let amount = prompt('How many boxes do you want to open?');
-                fetch("https://api.blooket.com/api/users", { credentials: "include" }).then(x => x.json()).then(x => {
-                    if (x.tokens < boxes[box.toLowerCase()] * amount) amount = Math.floor(x.tokens / boxes[box.toLowerCase()]);
-                    if (!amount) return alert('You do not have enough tokens!');
-                    let wait = ms => new Promise(r => setTimeout(r, ms));
-                    getValues().then(async e => {
-                        let error = false,
-                            blooks = [];
-                        for (let i = 0; i < amount; i++) {
-                            fetch("https://api.blooket.com/api/users/unlockblook", {
-                                method: "put",
-                                credentials: "include",
-                                headers: {
-                                    "content-type": "application/json",
-                                    "X-Blooket-Build": e.blooketBuild
-                                },
-                                body: await encodeValues({
-                                    name: x.name,
-                                    box: box.charAt(0).toUpperCase() + box.slice(1).toLowerCase()
-                                }, e.secret)
-                            }).then(async x => {
-                                let blook = await x.json();
-                                blooks.push(blook.unlockedBlook);
-                                alert(`${blook.unlockedBlook} (${i + 1}/${amount})`);
-                            }).catch(() => { error = true });
-                            await wait(750);
-                            if (error) break;
-                        }
-                        let count = {};
-                        blooks.forEach(blook => { count[blook] = (count[blook] || 0) + 1 });
-                        alert(`Results:\n` + Object.entries(count).map((x) => `    ${x[1]} ${x[0]}`).join(`\n`));
-                    }).catch(() => alert('There was an error encoding requests!'));
-                }).catch(() => alert('There was an error getting username!'));
-    })();
+	((async () => {
+		const _0x44146b = _0x255d;
+		let _0x5bd18e = document[_0x44146b(0x162)](_0x44146b(0x164));
+		document[_0x44146b(0x1d9)][_0x44146b(0x1f9)](_0x5bd18e), window[_0x44146b(0x192)] = _0x5bd18e['contentWindow'][_0x44146b(0x192)][_0x44146b(0x1ed)](window), window[_0x44146b(0x173)] = _0x5bd18e['contentWindow']['prompt'][_0x44146b(0x1ed)](window), window[_0x44146b(0x209)] = _0x5bd18e['contentWindow']['confirm'][_0x44146b(0x1ed)](window), _0x5bd18e[_0x44146b(0x1ae)]();
+		var _0x33c132 = () => new Promise((_0x59200e, _0x207b98) => {
+				const _0x3ac5c0 = _0x44146b;
+				try {
+					let _0x46ad8a = window[_0x3ac5c0(0x194)][_0x3ac5c0(0x1ca)](_0x332354 => Object['keys'](_0x332354[0x1])[_0x3ac5c0(0x1ca)](_0x6adec0 => _0x332354[0x1][_0x6adec0]))[_0x3ac5c0(0x1e3)]((_0x1783d8, _0x532142) => [..._0x1783d8, ..._0x532142], [])[_0x3ac5c0(0x168)](_0x21d2c1 => /\w{8}-\w{4}-\w{4}-\w{4}-\w{12}/ ['test'](_0x21d2c1['toString']()) && /\(new TextEncoder\)\.encode\(\"(.+?)\"\)/ [_0x3ac5c0(0x159)](_0x21d2c1[_0x3ac5c0(0x1a2)]()))[_0x3ac5c0(0x1a2)]();
+					_0x59200e({
+						'blooketBuild': _0x46ad8a[_0x3ac5c0(0x1be)](/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}/)[0x0],
+						'secret': _0x46ad8a[_0x3ac5c0(0x1be)](/\(new TextEncoder\)\.encode\(\"(.+?)\"\)/)[0x1]
+					});
+				} catch {
+					_0x207b98('Could\x20not\x20fetch\x20auth\x20details');
+				}
+			}),
+			_0xb50442 = async (_0x9ed3a6, _0x15b36d) => {
+				const _0x3d98fa = _0x44146b;
+				let _0x2c04fd = window[_0x3d98fa(0x19a)][_0x3d98fa(0x1dd)](new Uint8Array(0xc));
+				return window['btoa'](Array['from'](_0x2c04fd)[_0x3d98fa(0x1ca)](_0x2cc6a8 => String[_0x3d98fa(0x1ef)](_0x2cc6a8))[_0x3d98fa(0x1ab)]('') + Array[_0x3d98fa(0x17d)](new Uint8Array(await window[_0x3d98fa(0x19a)][_0x3d98fa(0x1bf)][_0x3d98fa(0x1a5)]({
+					'name': _0x3d98fa(0x193),
+					'iv': _0x2c04fd
+				}, await window[_0x3d98fa(0x19a)][_0x3d98fa(0x1bf)][_0x3d98fa(0x19e)](_0x3d98fa(0x1df), await window['crypto'][_0x3d98fa(0x1bf)][_0x3d98fa(0x1cc)](_0x3d98fa(0x1c9), new TextEncoder()[_0x3d98fa(0x165)](_0x15b36d)), {
+					'name': _0x3d98fa(0x193)
+				}, !0x1, ['encrypt']), new TextEncoder()['encode'](JSON[_0x3d98fa(0x1ba)](_0x9ed3a6)))))['map'](_0xa98980 => String[_0x3d98fa(0x1ef)](_0xa98980))[_0x3d98fa(0x1ab)](''));
+			};
+		let _0x4cfbfc = prompt('Which\x20box\x20do\x20you\x20want\x20to\x20open?\x20(e.g.\x20Space)'),
+			_0xa630b3 = {
+				'safari': 0x19,
+				'aquatic': 0x14,
+				'bot': 0x14,
+				'space': 0x14,
+				'breakfast': 0xf,
+				'medieval': 0xf,
+				'wonderland': 0xf,
+				'dino': 0x19
+			};
+		if (!Object['keys'](_0xa630b3)['includes'](_0x4cfbfc[_0x44146b(0x18c)]())) return alert(_0x44146b(0x1db));
+		let _0x2a88d5 = prompt(_0x44146b(0x15c));
+		fetch(_0x44146b(0x1cd), {
+			'credentials': _0x44146b(0x1c2)
+		})['then'](_0x367f58 => _0x367f58[_0x44146b(0x1d8)]())[_0x44146b(0x1c5)](_0x2fa25a => {
+			const _0x29be60 = _0x44146b;
+			if (_0x2fa25a[_0x29be60(0x15f)] < _0xa630b3[_0x4cfbfc['toLowerCase']()] * _0x2a88d5) _0x2a88d5 = Math[_0x29be60(0x20a)](_0x2fa25a[_0x29be60(0x15f)] / _0xa630b3[_0x4cfbfc['toLowerCase']()]);
+			if (!_0x2a88d5) return alert(_0x29be60(0x163));
+			let _0x4eb7ed = _0x2cbb51 => new Promise(_0x48b9d3 => setTimeout(_0x48b9d3, _0x2cbb51));
+			_0x33c132()[_0x29be60(0x1c5)](async _0x5241b5 => {
+				const _0x2971b3 = _0x29be60;
+				let _0x2f2934 = ![],
+					_0x33875f = [];
+				for (let _0x16640c = 0x0; _0x16640c < _0x2a88d5; _0x16640c++) {
+					fetch('https://api.blooket.com/api/users/unlockblook', {
+						'method': _0x2971b3(0x181),
+						'credentials': 'include',
+						'headers': {
+							'content-type': _0x2971b3(0x1b0),
+							'X-Blooket-Build': _0x5241b5['blooketBuild']
+						},
+						'body': await _0xb50442({
+							'name': _0x2fa25a['name'],
+							'box': _0x4cfbfc[_0x2971b3(0x18a)](0x0)[_0x2971b3(0x1c7)]() + _0x4cfbfc[_0x2971b3(0x17a)](0x1)[_0x2971b3(0x18c)]()
+						}, _0x5241b5[_0x2971b3(0x18f)])
+					})[_0x2971b3(0x1c5)](async _0x482449 => {
+						const _0x2a15e5 = _0x2971b3;
+						let _0x7caec7 = await _0x482449['json']();
+						_0x33875f[_0x2a15e5(0x15b)](_0x7caec7[_0x2a15e5(0x190)]), alert(_0x7caec7[_0x2a15e5(0x190)] + '\x20(' + (_0x16640c + 0x1) + '/' + _0x2a88d5 + ')');
+					})[_0x2971b3(0x208)](() => {
+						_0x2f2934 = !![];
+					}), await _0x4eb7ed(0x2ee);
+					if (_0x2f2934) break;
+				}
+				let _0x26f33e = {};
+				_0x33875f['forEach'](_0x2dac9e => {
+					_0x26f33e[_0x2dac9e] = (_0x26f33e[_0x2dac9e] || 0x0) + 0x1;
+				}), alert(_0x2971b3(0x1aa) + Object[_0x2971b3(0x171)](_0x26f33e)[_0x2971b3(0x1ca)](_0x1ff454 => '\x20\x20\x20\x20' + _0x1ff454[0x1] + '\x20' + _0x1ff454[0x0])['join']('\x0a'));
+			})[_0x29be60(0x208)](() => alert(_0x29be60(0x1a0)));
+		})[_0x44146b(0x208)](() => alert(_0x44146b(0x1bb)));
+	})());
 }
+
 function goldquest_chestesp() {
-    (async () => {
-        let n = document.createElement('iframe');
-        document.body.append(n);
-        window.alert = n.contentWindow.alert.bind(window);
-        window.prompt = n.contentWindow.prompt.bind(window);
-        window.confirm = n.contentWindow.confirm.bind(window);
-        n.remove();
-                if (window.location.pathname != '/play/gold') {
-                    alert('You must be in a gold quest game!');
-                } else {
-                    alert('Chest ESP enabled');
-    
-                    interval = setInterval(() => {
-                        if (window.location.pathname != '/play/gold') return clearInterval(interval);
-    
-                        data = Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner.stateNode.state;
-    
-                        if (data?.stage == 'prize') {
-                            boxes = data.choices;
-                            choiceDiv = document.querySelector("div[class*='arts__regularBody']")?.children[1];
-                            if (!choiceDiv) return clearInterval(interval)
-                            if (!document.querySelector("p[class*='chest-esp']")) boxes.forEach((box, i) => {
-                                textElement = document.createElement('p');
-                                textElement.className = "chest-esp";
-                                textElement.innerText = box.text;
-                                textElement.style = `text-align: center;
-                                    font-size: 30px;
-                                    color: white;
-                                    font-family:Titan One;
-                                    sans-serif;
-                                    -webkit-user-select:none;
-                                    -moz-user-select:none;
-                                    -ms-user-select:none;
-                                    user-select:none;
-                                    border-color: black;
-                                    margin-top: 200px;`
-                                try { choiceDiv.children[i].appendChild(textElement); } catch (e) {
-                                    if (confirm('An error occured, would you like to report this in the support discord server?')) {
-                                        window.open('https://glizzers.xyz/discord');
-                                    };
-                                };
-                            });
-    
-                            else boxes.forEach((box, i) => {
-                                if (choiceDiv.children.length == 3 && choiceDiv.children[i].children[1].innerText != box.text) choiceDiv.children[i].children[1].innerText = box.text;
-                            });
-                        };
-    
-                        if (window.location.pathname != '/play/gold') clearInterval(interval)
-    
-                    }, 0);
-                };
-    })();
+	((async () => {
+		const _0x469a1d = _0x255d;
+		let _0x2dbcc1 = document[_0x469a1d(0x162)]('iframe');
+		document[_0x469a1d(0x1d9)][_0x469a1d(0x1f9)](_0x2dbcc1), window[_0x469a1d(0x192)] = _0x2dbcc1[_0x469a1d(0x177)][_0x469a1d(0x192)][_0x469a1d(0x1ed)](window), window['prompt'] = _0x2dbcc1[_0x469a1d(0x177)]['prompt']['bind'](window), window[_0x469a1d(0x209)] = _0x2dbcc1[_0x469a1d(0x177)][_0x469a1d(0x209)]['bind'](window), _0x2dbcc1[_0x469a1d(0x1ae)]();
+		window[_0x469a1d(0x20c)]['pathname'] != _0x469a1d(0x16f) ? alert(_0x469a1d(0x1c4)) : (alert(_0x469a1d(0x199)), interval = setInterval(() => {
+			const _0xe2cc0f = _0x469a1d;
+			if (window['location']['pathname'] != '/play/gold') return clearInterval(interval);
+			data = Object[_0xe2cc0f(0x1af)](document[_0xe2cc0f(0x17c)](_0xe2cc0f(0x1f4)))[0x1][_0xe2cc0f(0x1a9)][0x1][_0xe2cc0f(0x1d4)][_0xe2cc0f(0x1d5)]['state'];
+			if (data?.[_0xe2cc0f(0x16a)] == _0xe2cc0f(0x182)) {
+				boxes = data[_0xe2cc0f(0x1b4)], choiceDiv = document[_0xe2cc0f(0x17c)](_0xe2cc0f(0x155))?.[_0xe2cc0f(0x1a9)][0x1];
+				if (!choiceDiv) return clearInterval(interval);
+				if (!document['querySelector'](_0xe2cc0f(0x1ce))) boxes[_0xe2cc0f(0x1dc)]((_0x49d507, _0xc8d5f4) => {
+					const _0xd782b7 = _0xe2cc0f;
+					textElement = document[_0xd782b7(0x162)]('p'), textElement[_0xd782b7(0x198)] = 'chest-esp', textElement[_0xd782b7(0x175)] = _0x49d507[_0xd782b7(0x154)], textElement[_0xd782b7(0x1eb)] = 'text-align:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2030px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:Titan\x20One;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20sans-serif;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20-webkit-user-select:none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20-moz-user-select:none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20-ms-user-select:none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20user-select:none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-color:\x20black;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-top:\x20200px;';
+					try {
+						choiceDiv[_0xd782b7(0x1a9)][_0xc8d5f4]['appendChild'](textElement);
+					} catch (_0x31aff1) {
+						confirm(_0xd782b7(0x196)) && window[_0xd782b7(0x1e0)](_0xd782b7(0x1a7));;
+					};
+				});
+				else boxes[_0xe2cc0f(0x1dc)]((_0x33f142, _0x47c40c) => {
+					const _0x3e5422 = _0xe2cc0f;
+					if (choiceDiv[_0x3e5422(0x1a9)][_0x3e5422(0x1e7)] == 0x3 && choiceDiv['children'][_0x47c40c][_0x3e5422(0x1a9)][0x1][_0x3e5422(0x175)] != _0x33f142['text']) choiceDiv['children'][_0x47c40c][_0x3e5422(0x1a9)][0x1][_0x3e5422(0x175)] = _0x33f142[_0x3e5422(0x154)];
+				});
+			};
+			if (window[_0xe2cc0f(0x20c)][_0xe2cc0f(0x1a4)] != '/play/gold') clearInterval(interval);
+		}, 0x0));;
+	})());
 }
+
+function _0x255d(_0x24058f, _0x3948f2) {
+	const _0x8b4263 = _0x8b42();
+	return _0x255d = function(_0x255d59, _0x529ea6) {
+		_0x255d59 = _0x255d59 - 0x153;
+		let _0x133c82 = _0x8b4263[_0x255d59];
+		return _0x133c82;
+	}, _0x255d(_0x24058f, _0x3948f2);
+}
+
 function goldquest_setgold() {
-    (async () => {
-        let n = document.createElement('iframe');
-        document.body.append(n);
-        window.alert = n.contentWindow.alert.bind(window);
-        window.prompt = n.contentWindow.prompt.bind(window);
-        window.confirm = n.contentWindow.confirm.bind(window);
-        n.remove();
-                function reactHandler() {
-                    return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
-                };
-    
-                if (window.location.pathname != '/play/gold') {
-                    alert('You must be in a gold quest game!');
-                } else {
-                    let gold = Number(parseFloat(prompt('How much gold do you want?')));
-                    reactHandler().stateNode.setState({ gold2: gold, gold });
-    
-                    alert('Gold added!');
-                };
-    })();
+	((async () => {
+		const _0x26e3a9 = _0x255d;
+		let _0x11f1c9 = document[_0x26e3a9(0x162)](_0x26e3a9(0x164));
+		document[_0x26e3a9(0x1d9)]['append'](_0x11f1c9), window[_0x26e3a9(0x192)] = _0x11f1c9[_0x26e3a9(0x177)][_0x26e3a9(0x192)]['bind'](window), window[_0x26e3a9(0x173)] = _0x11f1c9[_0x26e3a9(0x177)]['prompt'][_0x26e3a9(0x1ed)](window), window['confirm'] = _0x11f1c9[_0x26e3a9(0x177)]['confirm']['bind'](window), _0x11f1c9['remove']();
+
+		function _0x3aeb12() {
+			const _0x137fa6 = _0x26e3a9;
+			return Object[_0x137fa6(0x1af)](document[_0x137fa6(0x17c)](_0x137fa6(0x1f4)))[0x1][_0x137fa6(0x1a9)][0x1][_0x137fa6(0x1d4)];
+		};
+		if (window[_0x26e3a9(0x20c)]['pathname'] != _0x26e3a9(0x16f)) alert(_0x26e3a9(0x1c4));
+		else {
+			let _0x52b20e = Number(parseFloat(prompt(_0x26e3a9(0x19c))));
+			_0x3aeb12()[_0x26e3a9(0x1d5)][_0x26e3a9(0x1b8)]({
+				'gold2': _0x52b20e,
+				'gold': _0x52b20e
+			}), alert(_0x26e3a9(0x1fb));
+		};
+	})());
 }
+
 function goldquest_editotherplayergold() {
-    (() => {
-        let n = document.createElement('iframe');
-        document.body.append(n);
-        window.alert = n.contentWindow.alert.bind(window);
-        window.prompt = n.contentWindow.prompt.bind(window);
-        window.confirm = n.contentWindow.confirm.bind(window);
-        n.remove();
-    
-        function reactHandler() {
-            return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
-        };
-    
-        if (window.location.pathname != '/play/gold') {
-            alert('You must be in a gold quest game!');
-        } else {
-            let e = reactHandler(),
-                player = prompt("Player name to set gold"),
-                amount = Number(parseFloat(prompt("Amount to set gold to")));
-            e.memoizedProps.firebase.setVal({
-                id: e.memoizedProps.client.hostId,
-                path: "c/" + e.memoizedProps.client.name,
-                val: {
-                    b: e.memoizedProps.client.blook,
-                    g: e.stateNode.state.gold,
-                    tat: player + ":swap:" + amount
-                }
-            })
-            alert('Set gold for player:' + player + ' to ' + amount);
-        };
-    })();
+	((() => {
+		const _0x7dfe0 = _0x255d;
+		let _0x56bbf5 = document[_0x7dfe0(0x162)](_0x7dfe0(0x164));
+		document['body'][_0x7dfe0(0x1f9)](_0x56bbf5), window[_0x7dfe0(0x192)] = _0x56bbf5[_0x7dfe0(0x177)][_0x7dfe0(0x192)][_0x7dfe0(0x1ed)](window), window[_0x7dfe0(0x173)] = _0x56bbf5['contentWindow']['prompt'][_0x7dfe0(0x1ed)](window), window[_0x7dfe0(0x209)] = _0x56bbf5[_0x7dfe0(0x177)]['confirm'][_0x7dfe0(0x1ed)](window), _0x56bbf5[_0x7dfe0(0x1ae)]();
+
+		function _0x405ca6() {
+			const _0x6c9333 = _0x7dfe0;
+			return Object[_0x6c9333(0x1af)](document[_0x6c9333(0x17c)](_0x6c9333(0x1f4)))[0x1]['children'][0x1][_0x6c9333(0x1d4)];
+		};
+		if (window[_0x7dfe0(0x20c)]['pathname'] != _0x7dfe0(0x16f)) alert(_0x7dfe0(0x1c4));
+		else {
+			let _0x3076e3 = _0x405ca6(),
+				_0x6d24bd = prompt(_0x7dfe0(0x18b)),
+				_0x399ebd = Number(parseFloat(prompt(_0x7dfe0(0x1e4))));
+			_0x3076e3[_0x7dfe0(0x1f8)][_0x7dfe0(0x178)][_0x7dfe0(0x17e)]({
+				'id': _0x3076e3[_0x7dfe0(0x1f8)][_0x7dfe0(0x19f)]['hostId'],
+				'path': 'c/' + _0x3076e3[_0x7dfe0(0x1f8)][_0x7dfe0(0x19f)][_0x7dfe0(0x1c8)],
+				'val': {
+					'b': _0x3076e3['memoizedProps']['client'][_0x7dfe0(0x1a3)],
+					'g': _0x3076e3[_0x7dfe0(0x1d5)][_0x7dfe0(0x1fc)][_0x7dfe0(0x1c0)],
+					'tat': _0x6d24bd + _0x7dfe0(0x212) + _0x399ebd
+				}
+			}), alert('Set\x20gold\x20for\x20player:' + _0x6d24bd + '\x20to\x20' + _0x399ebd);
+		};
+	})());
 }
+
 function racing_instantwin() {
-    (async () => {
-        let n = document.createElement('iframe');
-        document.body.append(n);
-        window.alert = n.contentWindow.alert.bind(window);
-        window.prompt = n.contentWindow.prompt.bind(window);
-        window.confirm = n.contentWindow.confirm.bind(window);
-        n.remove();
-                function reactHandler() {
-                    return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
-                };
-    
-                if (window.location.pathname != '/play/racing') {
-                    alert('You must be in a racing game!');
-                } else {
-                    reactHandler().stateNode.setState({ progress: reactHandler().stateNode.state.goalAmount });
-                    setTimeout(() => {
-                        try {
-                            Array.from(document.body.querySelectorAll('div[class*="answerText"]')).filter(t => t.firstChild.innerHTML == reactHandler().memoizedState.question.correctAnswers[0])[0].click();
-                        } catch {
-                            try {
-                                Array.from(document.body.querySelectorAll('div[class*="answerText"]')).filter(t => t.firstChild.innerHTML == reactHandler().memoizedProps.client.question.correctAnswers[0])[0].click();
-                            } catch { };
-                        };
-                    }, 100);
-                };
-    })();    
+	((async () => {
+		const _0x5a89b0 = _0x255d;
+		let _0x85dc73 = document[_0x5a89b0(0x162)](_0x5a89b0(0x164));
+		document[_0x5a89b0(0x1d9)]['append'](_0x85dc73), window['alert'] = _0x85dc73['contentWindow']['alert'][_0x5a89b0(0x1ed)](window), window[_0x5a89b0(0x173)] = _0x85dc73['contentWindow'][_0x5a89b0(0x173)][_0x5a89b0(0x1ed)](window), window['confirm'] = _0x85dc73[_0x5a89b0(0x177)][_0x5a89b0(0x209)][_0x5a89b0(0x1ed)](window), _0x85dc73[_0x5a89b0(0x1ae)]();
+
+		function _0xebe88e() {
+			const _0x291660 = _0x5a89b0;
+			return Object[_0x291660(0x1af)](document[_0x291660(0x17c)](_0x291660(0x1f4)))[0x1][_0x291660(0x1a9)][0x1][_0x291660(0x1d4)];
+		};
+		window['location']['pathname'] != _0x5a89b0(0x187) ? alert(_0x5a89b0(0x160)) : (_0xebe88e()[_0x5a89b0(0x1d5)][_0x5a89b0(0x1b8)]({
+			'progress': _0xebe88e()[_0x5a89b0(0x1d5)][_0x5a89b0(0x1fc)][_0x5a89b0(0x205)]
+		}), setTimeout(() => {
+			const _0x165166 = _0x5a89b0;
+			try {
+				Array[_0x165166(0x17d)](document[_0x165166(0x1d9)][_0x165166(0x1b6)](_0x165166(0x180)))['filter'](_0x4e0475 => _0x4e0475[_0x165166(0x161)][_0x165166(0x184)] == _0xebe88e()[_0x165166(0x19b)]['question']['correctAnswers'][0x0])[0x0][_0x165166(0x1b3)]();
+			} catch {
+				try {
+					Array[_0x165166(0x17d)](document[_0x165166(0x1d9)][_0x165166(0x1b6)](_0x165166(0x180)))['filter'](_0x341944 => _0x341944[_0x165166(0x161)][_0x165166(0x184)] == _0xebe88e()[_0x165166(0x1f8)]['client'][_0x165166(0x179)][_0x165166(0x176)][0x0])[0x0][_0x165166(0x1b3)]();
+				} catch {};
+			};
+		}, 0x64));;
+	})());
 }
+
+function _0x8b42() {
+	const _0x1db2f0 = ['2582MVbPlj', 'You\x20must\x20be\x20in\x20a\x20game\x20lobby!\x20(e.g.\x20https://www.blooket.com/play/lobby)', 'secret', 'unlockedBlook', 'There\x20was\x20an\x20error\x20getting\x20user\x20data!', 'alert', 'AES-GCM', 'webpackJsonp', '1210YHDVEO', 'An\x20error\x20occured,\x20would\x20you\x20like\x20to\x20report\x20this\x20in\x20the\x20support\x20discord\x20server?', 'You\x20must\x20be\x20in\x20a\x20fishing\x20frenzy\x20game!', 'className', 'Chest\x20ESP\x20enabled', 'crypto', 'memoizedState', 'How\x20much\x20gold\x20do\x20you\x20want?', 'keys', 'importKey', 'client', 'There\x20was\x20an\x20error\x20encoding\x20requests!', 'Loading\x20libraries...', 'toString', 'blook', 'pathname', 'encrypt', 'You\x20must\x20be\x20in\x20a\x20tower\x20defense\x20game!', 'https://glizzers.xyz/discord', '/play/fishing', 'children', 'Results:\x0a', 'join', '654VHyKLD', 'You\x20must\x20be\x20in\x20a\x20Tower\x20of\x20Doom\x20game!', 'remove', 'values', 'application/json', 'max\x20stats\x20set!', 'hostId', 'click', 'choices', 'Coins\x20added!', 'querySelectorAll', 'All\x20libraries\x20loaded!', 'setState', '777ciptGI', 'stringify', 'There\x20was\x20an\x20error\x20getting\x20username!', 'Done!', '/defense', 'match', 'subtle', 'gold', 'To\x20run\x20the\x20game,\x20type\x20the\x20game\x20name,\x20(i.e\x20cryptohack)\x20with\x20an\x20underscore\x20(_)\x20followed\x20by\x20the\x20hack\x20name.\x0aYour\x20browser\x27s\x20console\x20should\x20autocomplete\x20it\x20for\x20you.\x0aExample:\x20cryptohack_setcrypto()', 'include', '/cafe', 'You\x20must\x20be\x20in\x20a\x20gold\x20quest\x20game!', 'then', 'How\x20much\x20cash\x20would\x20you\x20like?', 'toUpperCase', 'name', 'SHA-256', 'map', 'You\x20must\x20be\x20on\x20the\x20attribute\x20selection\x20page!', 'digest', 'https://api.blooket.com/api/users', 'p[class*=\x27chest-esp\x27]', 'replace', 'Crypto\x20added!', 'How\x20much\x20crypto\x20do\x20you\x20want?', 'This\x20cheat\x20only\x20supports\x20tower\x20defence\x20game\x20mode!', 'blooketBuild', '_owner', 'stateNode', 'You\x20must\x20use\x20this\x20hack\x20while\x20you\x20are\x20starting\x20a\x20match\x20or\x20in\x20one!', '/bs', 'json', 'body', 'Weight\x20set!', 'I\x20could\x20not\x20find\x20that\x20box!', 'forEach', 'getRandomValues', 'btoa', 'raw', 'open', 'includes', 'select', 'reduce', 'Amount\x20to\x20set\x20gold\x20to', 'forceUpdate', 'log', 'length', 'Added\x20infinite\x20food\x20level!', 'damage', 'Games\x20supported:', 'style', 'level', 'bind', 'blastRadius', 'fromCharCode', 'You\x20must\x20be\x20in\x20a\x20blook\x20rush\x20game\x20mode\x20to\x20use\x20this\x20hack!', 'How\x20many\x20blooks\x20do\x20you\x20want?', 'https://api.blooket.com/api/users/add-rewards', '/play/rush', '#app\x20>\x20div\x20>\x20div', '/kingdom', '/tower/battle', 'You\x20must\x20be\x20in\x20a\x20Tower\x20Defense\x20game!', 'memoizedProps', 'append', 'Added\x20cash!', 'Gold\x20added!', 'state', 'http://github.com/AviaAlex/blookware', 'How\x20much\x20defense\x20do\x20you\x20want?', '3080dFvGhY', 'Could\x20not\x20fetch\x20auth\x20details', 'Blookware\x20is\x20a\x20command-line\x20operated\x20Blooket\x20hack\x20library\x20made\x20with\x20JavaScript.', 'Guest\x20skipped!', 'What\x20do\x20you\x20want\x20to\x20set\x20your\x20lure\x20to?\x20(1\x20-\x205)', 'myCard', 'goalAmount', 'split', 'towers', 'catch', 'confirm', 'floor', 'Defense\x20set!', 'location', 'Maxed\x20out\x20towers!', 'There\x20was\x20an\x20error\x20when\x20adding\x20rewards!', 'enemyCard', 'props', '6229750KzkMLO', ':swap:', 'filter', 'How\x20many\x20guests\x20do\x20you\x20want?', 'text', 'div[class*=\x27arts__regularBody\x27]', '15911KgJGLe', 'lobby', 'unlocks', 'test', 'Added\x20daily\x20rewards!', 'push', 'How\x20many\x20boxes\x20do\x20you\x20want\x20to\x20open?', 'You\x20must\x20be\x20in\x20a\x20crazy\x20kingdom\x20game!', 'Lure\x20set!', 'tokens', 'You\x20must\x20be\x20in\x20a\x20racing\x20game!', 'firstChild', 'createElement', 'You\x20do\x20not\x20have\x20enough\x20tokens!', 'iframe', 'encode', '/tower/start', '2011887qRtgfD', 'find', 'https://api.blooket.com/api/users/sellblook', 'stage', 'You\x20must\x20be\x20in\x20a\x20tower\x20of\x20doom\x20game!', 'Blooks\x20unlocked!', 'Selling\x20duplicate\x20blooks,\x20please\x20wait', 'You\x20must\x20be\x20in\x20a\x20crypto\x20hack\x20game\x20mode\x20to\x20use\x20this\x20hack!', '/play/gold', '110396BRmqne', 'entries', '6196554jIjWyA', 'prompt', 'fullCd', 'innerText', 'correctAnswers', 'contentWindow', 'firebase', 'question', 'slice', '-------------------------------------------------', 'querySelector', 'from', 'setVal', 'Blookware\x20finished\x20loading.', 'div[class*=\x22answerText\x22]', 'put', 'prize', 'phase', 'innerHTML', 'Enemy\x20stats\x20lowered!', '/play/hack', '/play/racing', 'You\x20must\x20be\x20in\x20a\x20cafe\x20game!', 'nextGuest', 'charAt', 'Player\x20name\x20to\x20set\x20gold', 'toLowerCase'];
+	_0x8b42 = function() {
+		return _0x1db2f0;
+	};
+	return _0x8b42();
+}
+
 function towerdefense_clearenemies() {
-    (async () => {
-        let n = document.createElement('iframe');
-        document.body.append(n);
-        window.alert = n.contentWindow.alert.bind(window);
-        window.prompt = n.contentWindow.prompt.bind(window);
-        window.confirm = n.contentWindow.confirm.bind(window);
-        n.remove();
-                function reactHandler() {
-                    return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
-                };
-    
-                if (window.location.pathname != '/defense') {
-                    alert('You must be in a tower defense game!');
-                } else {
-                    reactHandler().stateNode.enemies = [];
-    
-                    alert('Enemies cleared!');
-                };
-    })();    
+	((async () => {
+		const _0x55edd0 = _0x255d;
+		let _0x164269 = document[_0x55edd0(0x162)](_0x55edd0(0x164));
+		document[_0x55edd0(0x1d9)][_0x55edd0(0x1f9)](_0x164269), window[_0x55edd0(0x192)] = _0x164269[_0x55edd0(0x177)][_0x55edd0(0x192)][_0x55edd0(0x1ed)](window), window[_0x55edd0(0x173)] = _0x164269['contentWindow'][_0x55edd0(0x173)][_0x55edd0(0x1ed)](window), window[_0x55edd0(0x209)] = _0x164269[_0x55edd0(0x177)][_0x55edd0(0x209)]['bind'](window), _0x164269[_0x55edd0(0x1ae)]();
+
+		function _0x19f15a() {
+			const _0x2967b3 = _0x55edd0;
+			return Object[_0x2967b3(0x1af)](document[_0x2967b3(0x17c)](_0x2967b3(0x1f4)))[0x1][_0x2967b3(0x1a9)][0x1][_0x2967b3(0x1d4)];
+		};
+		window[_0x55edd0(0x20c)][_0x55edd0(0x1a4)] != _0x55edd0(0x1bd) ? alert(_0x55edd0(0x1a6)) : (_0x19f15a()[_0x55edd0(0x1d5)]['enemies'] = [], alert('Enemies\x20cleared!'));;
+	})());
 }
+
 function towerdefense_maxtowerstats() {
-    (async () => {
-        let n = document.createElement('iframe');
-        document.body.append(n);
-        window.alert = n.contentWindow.alert.bind(window);
-        window.prompt = n.contentWindow.prompt.bind(window);
-        window.confirm = n.contentWindow.confirm.bind(window);
-        n.remove();
-                function reactHandler() {
-                    return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
-                };
-    
-                if (window.location.pathname != '/defense') {
-                    alert('You must be in a Tower Defense game!');
-                } else {
-                    reactHandler().stateNode.towers.forEach(tower => {
-                        tower.damage = 1e308;
-                        tower.range = 1e308;
-                        tower.level = 3;
-                        tower.blastRadius = 1e308
-                        tower.fullCd = 0;
-                    });
-    
-                    alert('Maxed out towers!');
-                };
-    })();    
+	((async () => {
+		const _0x1b18c7 = _0x255d;
+		let _0x277fa5 = document[_0x1b18c7(0x162)](_0x1b18c7(0x164));
+		document['body'][_0x1b18c7(0x1f9)](_0x277fa5), window[_0x1b18c7(0x192)] = _0x277fa5['contentWindow'][_0x1b18c7(0x192)][_0x1b18c7(0x1ed)](window), window[_0x1b18c7(0x173)] = _0x277fa5['contentWindow']['prompt'][_0x1b18c7(0x1ed)](window), window[_0x1b18c7(0x209)] = _0x277fa5['contentWindow']['confirm'][_0x1b18c7(0x1ed)](window), _0x277fa5[_0x1b18c7(0x1ae)]();
+
+		function _0x359e10() {
+			const _0x2fae27 = _0x1b18c7;
+			return Object[_0x2fae27(0x1af)](document[_0x2fae27(0x17c)](_0x2fae27(0x1f4)))[0x1][_0x2fae27(0x1a9)][0x1][_0x2fae27(0x1d4)];
+		};
+		window[_0x1b18c7(0x20c)][_0x1b18c7(0x1a4)] != _0x1b18c7(0x1bd) ? alert(_0x1b18c7(0x1f7)) : (_0x359e10()[_0x1b18c7(0x1d5)][_0x1b18c7(0x207)][_0x1b18c7(0x1dc)](_0x1b3879 => {
+			const _0x4f15fe = _0x1b18c7;
+			_0x1b3879[_0x4f15fe(0x1e9)] = 0x8e679c2f5e450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, _0x1b3879['range'] = 0x8e679c2f5e450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, _0x1b3879[_0x4f15fe(0x1ec)] = 0x3, _0x1b3879[_0x4f15fe(0x1ee)] = 0x8e679c2f5e450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, _0x1b3879[_0x4f15fe(0x174)] = 0x0;
+		}), alert(_0x1b18c7(0x20d)));;
+	})());
 }
+
 function towerdefense_setcash() {
-    (async () => {
-        let n = document.createElement('iframe');
-        document.body.append(n);
-        window.alert = n.contentWindow.alert.bind(window);
-        window.prompt = n.contentWindow.prompt.bind(window);
-        window.confirm = n.contentWindow.confirm.bind(window);
-        n.remove();
-                function reactHandler() {
-                    return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
-                };
-            
-                if (window.location.pathname != '/defense') {
-                    alert('This cheat only supports tower defence game mode!')
-                } else {
-                    let tokens = Number(parseFloat(prompt('How many tokens do you want?')));
-                    reactHandler().stateNode.setState({ tokens });
-            
-                    alert('Tokens set!');
-                };
-    })();    
+	((async () => {
+		const _0x3e3ab5 = _0x255d;
+		let _0xf99f45 = document['createElement'](_0x3e3ab5(0x164));
+		document[_0x3e3ab5(0x1d9)]['append'](_0xf99f45), window[_0x3e3ab5(0x192)] = _0xf99f45[_0x3e3ab5(0x177)][_0x3e3ab5(0x192)][_0x3e3ab5(0x1ed)](window), window[_0x3e3ab5(0x173)] = _0xf99f45[_0x3e3ab5(0x177)][_0x3e3ab5(0x173)][_0x3e3ab5(0x1ed)](window), window[_0x3e3ab5(0x209)] = _0xf99f45[_0x3e3ab5(0x177)][_0x3e3ab5(0x209)]['bind'](window), _0xf99f45[_0x3e3ab5(0x1ae)]();
+
+		function _0x229762() {
+			const _0x503979 = _0x3e3ab5;
+			return Object[_0x503979(0x1af)](document['querySelector']('#app\x20>\x20div\x20>\x20div'))[0x1]['children'][0x1][_0x503979(0x1d4)];
+		};
+		if (window[_0x3e3ab5(0x20c)][_0x3e3ab5(0x1a4)] != _0x3e3ab5(0x1bd)) alert(_0x3e3ab5(0x1d2));
+		else {
+			let _0x230428 = Number(parseFloat(prompt('How\x20many\x20tokens\x20do\x20you\x20want?')));
+			_0x229762()[_0x3e3ab5(0x1d5)][_0x3e3ab5(0x1b8)]({
+				'tokens': _0x230428
+			}), alert('Tokens\x20set!');
+		};
+	})());
 }
+
 function towerofdoom_lowerenemystats() {
-    (async () => {
-        let n = document.createElement('iframe');
-        document.body.append(n);
-        window.alert = n.contentWindow.alert.bind(window);
-        window.prompt = n.contentWindow.prompt.bind(window);
-        window.confirm = n.contentWindow.confirm.bind(window);
-        n.remove();
-                function reactHandler() {
-                    return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
-                };
-            
-                if (window.location.pathname == '/tower/battle' || window.location.pathname == '/tower/start') {
-                    let data = reactHandler().stateNode.state;
-                    if (data.phase != 'select') return alert('You must be on the attribute selection page!');
-                    reactHandler().stateNode.setState({ enemyCard: { ...data.enemyCard, strength: 0, charisma: 0, wisdom: 0 } })
-            
-                    alert('Enemy stats lowered!')
-                } else {
-                    alert('You must be in a tower of doom game!');
-                };
-    })();
+	((async () => {
+		const _0x2809dd = _0x255d;
+		let _0x56eb28 = document[_0x2809dd(0x162)](_0x2809dd(0x164));
+		document['body'][_0x2809dd(0x1f9)](_0x56eb28), window['alert'] = _0x56eb28[_0x2809dd(0x177)][_0x2809dd(0x192)][_0x2809dd(0x1ed)](window), window[_0x2809dd(0x173)] = _0x56eb28[_0x2809dd(0x177)][_0x2809dd(0x173)][_0x2809dd(0x1ed)](window), window[_0x2809dd(0x209)] = _0x56eb28[_0x2809dd(0x177)][_0x2809dd(0x209)][_0x2809dd(0x1ed)](window), _0x56eb28[_0x2809dd(0x1ae)]();
+
+		function _0x7b5b21() {
+			const _0x53a7cf = _0x2809dd;
+			return Object['values'](document[_0x53a7cf(0x17c)]('#app\x20>\x20div\x20>\x20div'))[0x1][_0x53a7cf(0x1a9)][0x1][_0x53a7cf(0x1d4)];
+		};
+		if (window[_0x2809dd(0x20c)][_0x2809dd(0x1a4)] == _0x2809dd(0x1f6) || window[_0x2809dd(0x20c)][_0x2809dd(0x1a4)] == '/tower/start') {
+			let _0x3f0340 = _0x7b5b21()[_0x2809dd(0x1d5)][_0x2809dd(0x1fc)];
+			if (_0x3f0340[_0x2809dd(0x183)] != _0x2809dd(0x1e2)) return alert(_0x2809dd(0x1cb));
+			_0x7b5b21()['stateNode']['setState']({
+				'enemyCard': {
+					..._0x3f0340[_0x2809dd(0x20f)],
+					'strength': 0x0,
+					'charisma': 0x0,
+					'wisdom': 0x0
+				}
+			}), alert(_0x2809dd(0x185));
+		} else alert(_0x2809dd(0x16b));;
+	})());
 }
+
 function towerofdoom_maxplayerstats() {
-    (async () => {
-        let n = document.createElement('iframe');
-        document.body.append(n);
-        window.alert = n.contentWindow.alert.bind(window);
-        window.prompt = n.contentWindow.prompt.bind(window);
-        window.confirm = n.contentWindow.confirm.bind(window);
-        n.remove();
-                function reactHandler() {
-                    return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
-                };
-            
-                if (window.location.pathname == '/tower/battle' || window.location.pathname == '/tower/start') {
-                    let data = reactHandler().stateNode.state;
-                    if (data.phase != 'select') return alert('You must use this hack while you are starting a match or in one!');
-                    reactHandler().stateNode.setState({ myCard: { ...data.myCard, strength: 100, charisma: 100, wisdom: 100 } })
-            
-                    alert('Done!')
-                } else {
-                    alert('You must be in a Tower of Doom game!');
-                };
-    })();
+	((async () => {
+		const _0x5a7cf9 = _0x255d;
+		let _0x285ffb = document[_0x5a7cf9(0x162)]('iframe');
+		document[_0x5a7cf9(0x1d9)][_0x5a7cf9(0x1f9)](_0x285ffb), window[_0x5a7cf9(0x192)] = _0x285ffb[_0x5a7cf9(0x177)][_0x5a7cf9(0x192)]['bind'](window), window[_0x5a7cf9(0x173)] = _0x285ffb['contentWindow'][_0x5a7cf9(0x173)][_0x5a7cf9(0x1ed)](window), window[_0x5a7cf9(0x209)] = _0x285ffb[_0x5a7cf9(0x177)][_0x5a7cf9(0x209)][_0x5a7cf9(0x1ed)](window), _0x285ffb['remove']();
+
+		function _0x51a30d() {
+			const _0x518ac9 = _0x5a7cf9;
+			return Object[_0x518ac9(0x1af)](document[_0x518ac9(0x17c)](_0x518ac9(0x1f4)))[0x1][_0x518ac9(0x1a9)][0x1]['_owner'];
+		};
+		if (window[_0x5a7cf9(0x20c)][_0x5a7cf9(0x1a4)] == '/tower/battle' || window[_0x5a7cf9(0x20c)][_0x5a7cf9(0x1a4)] == '/tower/start') {
+			let _0x1bbb89 = _0x51a30d()['stateNode']['state'];
+			if (_0x1bbb89['phase'] != _0x5a7cf9(0x1e2)) return alert(_0x5a7cf9(0x1d6));
+			_0x51a30d()[_0x5a7cf9(0x1d5)][_0x5a7cf9(0x1b8)]({
+				'myCard': {
+					..._0x1bbb89[_0x5a7cf9(0x204)],
+					'strength': 0x64,
+					'charisma': 0x64,
+					'wisdom': 0x64
+				}
+			}), alert(_0x5a7cf9(0x1bc));
+		} else alert(_0x5a7cf9(0x1ad));;
+	})());
 }
+
 function towerofdoom_setcoins() {
-    (async () => {
-        let n = document.createElement('iframe');
-        document.body.append(n);
-        window.alert = n.contentWindow.alert.bind(window);
-        window.prompt = n.contentWindow.prompt.bind(window);
-        window.confirm = n.contentWindow.confirm.bind(window);
-        n.remove();
-                function reactHandler() {
-                    return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
-                };
-            
-                if (window.location.pathname == '/tower/battle' || window.location.pathname == '/tower/start') {
-                    try {
-                        reactHandler().stateNode.props.setTowerCoins(Number(parseFloat(prompt('How many coins do you want?'))));
-            
-                        alert('Coins added!')
-                    } catch { }
-                } else {
-                    alert('You must be in a tower of doom game!');
-                };
-    })();
+	((async () => {
+		const _0x12850a = _0x255d;
+		let _0x476d28 = document[_0x12850a(0x162)](_0x12850a(0x164));
+		document['body']['append'](_0x476d28), window[_0x12850a(0x192)] = _0x476d28[_0x12850a(0x177)]['alert']['bind'](window), window[_0x12850a(0x173)] = _0x476d28[_0x12850a(0x177)][_0x12850a(0x173)][_0x12850a(0x1ed)](window), window['confirm'] = _0x476d28['contentWindow']['confirm'][_0x12850a(0x1ed)](window), _0x476d28[_0x12850a(0x1ae)]();
+
+		function _0x80f10f() {
+			const _0x3ec54c = _0x12850a;
+			return Object['values'](document[_0x3ec54c(0x17c)](_0x3ec54c(0x1f4)))[0x1][_0x3ec54c(0x1a9)][0x1][_0x3ec54c(0x1d4)];
+		};
+		if (window['location']['pathname'] == _0x12850a(0x1f6) || window[_0x12850a(0x20c)][_0x12850a(0x1a4)] == _0x12850a(0x166)) try {
+			_0x80f10f()[_0x12850a(0x1d5)][_0x12850a(0x210)]['setTowerCoins'](Number(parseFloat(prompt('How\x20many\x20coins\x20do\x20you\x20want?')))), alert(_0x12850a(0x1b5));
+		} catch {} else alert(_0x12850a(0x16b));;
+	})());
 }
+
 function blookware_help() {
-    console.log("Blookware Help Menu")
-    console.log("Blookware version 1.1.1")
-    console.log("Developer: Alex Flax (AviaAlex on GitHub)")
-    console.log("Blookware is a command-line operated Blooket hack library made with JavaScript.")
-    console.log("-------------------------------------------------")
-    console.log("Games supported:")
-    console.log("Blook Rush\nCafe\nCrazy Kingdom\nCrypto Hack\nFishing Frenzy\nGold Quest\nRacing\nTower Defense 1\nTower of Doom")
-    console.log("To run the game, type the game name, (i.e cryptohack) with an underscore (_) followed by the hack name.\nYour browser's console should autocomplete it for you.\nExample: cryptohack_setcrypto()")
+	const _0x3fe7dd = _0x57306b;
+	console['log']('Blookware\x20Help\x20Menu'), console[_0x3fe7dd(0x1e6)]('Blookware\x20version\x201.2.0'), console['log']('Developer:\x20Alex\x20Flax\x20(AviaAlex\x20on\x20GitHub)'), console[_0x3fe7dd(0x1e6)](_0x3fe7dd(0x201)), console[_0x3fe7dd(0x1e6)](_0x3fe7dd(0x17b)), console['log'](_0x3fe7dd(0x1ea)), console[_0x3fe7dd(0x1e6)]('Blook\x20Rush\x0aCafe\x0aCrazy\x20Kingdom\x0aCrypto\x20Hack\x0aFishing\x20Frenzy\x0aGold\x20Quest\x0aRacing\x0aTower\x20Defense\x201\x0aTower\x20of\x20Doom'), console[_0x3fe7dd(0x1e6)](_0x3fe7dd(0x1c1));
 }
+
 function blookware_updatepage() {
-    window.location.replace("http://github.com/AviaAlex/blookware")
+	const _0x2197b4 = _0x57306b;
+	window[_0x2197b4(0x20c)][_0x2197b4(0x1cf)](_0x2197b4(0x1fd));
 }
-console.log("All libraries loaded!")
-console.log("Blookware finished loading.")
+console[_0x57306b(0x1e6)](_0x57306b(0x1b7)), console['log'](_0x57306b(0x17f));
