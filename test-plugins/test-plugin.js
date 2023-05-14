@@ -2,7 +2,7 @@
 const pluginName = "WareHelp"
 console.log("Test Plugin")
 console.log("Checking for Blookware...")
-if (bWarePChecker) {
+if (typeof bWarePChecker == "function") {
     console.log("Found Blookware. Injecting the plugin via Blookware now...")
     bWarePChecker(pluginName)
     function pluginScript() {

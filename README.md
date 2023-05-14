@@ -19,3 +19,4 @@ v1.1.0: Adding a blookware_help() function to help you if you don't know what co
 v1.1.1: Fixed a few bugs here and there to make Blookware run better on your computer.<br>
 v1.2.0: Obfuscated Blookware to make it harder for Blooket anti hack to detect.<br>
 v1.2.1: Fixed an issue where in Tower of Doom, you could not edit your coins in a shop.<br>
+v1.3.0: Made a plugin loader feature.<br>
