@@ -705,7 +705,7 @@ function towerofdoom_setcoins() {
                     return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
                 };
             
-                if (window.location.pathname == '/tower/battle' || window.location.pathname == '/tower/start') {
+                if (window.location.pathname == '/tower/battle' || window.location.pathname == '/tower/start' || window.location.pathname == "tower/shop") {
                     try {
                         reactHandler().stateNode.props.setTowerCoins(Number(parseFloat(prompt('How many coins do you want?'))));
             
