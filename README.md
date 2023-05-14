@@ -11,4 +11,9 @@ How to run hacks:<br>
 3. Type the name of the hack you want to use. <br>
 
 # Upcoming features<br>
-v1.1.0: Adding a blookware_help() function to help you if you don't know what command to run.
+v1.1.0: Adding a blookware_help() function to help you if you don't know what command to run.<br>
+
+# Changelog
+
+v1.1.1: Fixed a few bugs here and there to make Blookware run better on your computer.<br>
+v1.2.0: Obfuscated Blookware to make it harder for Blooket anti hack to detect.<br>
