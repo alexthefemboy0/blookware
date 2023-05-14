@@ -1,5 +1,5 @@
 // THIS IS A DEVELOPER VERSION OF BLOOKWARE, PLEASE DO NOT EXECUTE THIS VERSION!
-console.log("Blookware v1.2.1")
+console.log("Blookware v1.3.0")
 console.log("Loading libraries...")
 // All functions of the hacked client
 function blookrush_setblooks() {
@@ -718,7 +718,7 @@ function towerofdoom_setcoins() {
 }
 function blookware_help() {
     console.log("Blookware Help Menu")
-    console.log("Blookware version 1.2.1")
+    console.log("Blookware version 1.3.0")
     console.log("Developer: Alex Flax (AviaAlex on GitHub)")
     console.log("Blookware is a command-line operated Blooket hack library made with JavaScript.")
     console.log("-------------------------------------------------")
@@ -728,6 +728,9 @@ function blookware_help() {
 }
 function blookware_updatepage() {
     window.location.replace("http://github.com/AviaAlex/blookware")
+}
+function bWarePChecker(pName) {
+    console.log("Loaded plugin " + pName)
 }
 console.log("All libraries loaded!")
 console.log("Blookware finished loading.")

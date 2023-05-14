@@ -732,5 +732,8 @@ function blookware_help() {
 function blookware_updatepage() {
     window.location.replace("http://github.com/AviaAlex/blookware")
 }
+function bWarePChecker(pName) {
+    console.log("Loaded plugin " + pName)
+}
 console.log("All libraries loaded!")
 console.log("Blookware finished loading.")
