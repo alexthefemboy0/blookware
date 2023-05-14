@@ -3,7 +3,8 @@ Blookware is a library of Blooket hacks to use in and out of game.<br>
 To use Blookware, simply paste the Javascript code into your browser and use the functions in the terminal as you wish.<br>
 How to initialize Blookware:<br>
 1. Ctrl+Shift+I<br>
-2. Paste the code inside of the console.<br>
+2. Go to the blookware.js file and press the copy button.<br>
+3. Paste the code inside of the console.<br>
 
 How to run hacks:<br>
 1. Type in the name of the game (all lowercase)<br>
