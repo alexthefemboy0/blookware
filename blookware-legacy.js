@@ -1,4 +1,4 @@
-console.log("Blookware v1.2.0")
+console.log("Blookware v1.2.1")
 console.log("Loading libraries...")
 console.warn("This is a unobfuscated verion of Blookware.")
 console.warn("We are not responsible if you get banned byt the Blookware anti hack.")
@@ -685,7 +685,7 @@ function towerofdoom_maxplayerstats() {
                     return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
                 };
             
-                if (window.location.pathname == '/tower/battle' || window.location.pathname == '/tower/start') {
+                if (window.location.pathname == '/tower/battle' || window.location.pathname == '/tower/start' || window.location.pathname == '/tower/shop') {
                     let data = reactHandler().stateNode.state;
                     if (data.phase != 'select') return alert('You must use this hack while you are starting a match or in one!');
                     reactHandler().stateNode.setState({ myCard: { ...data.myCard, strength: 100, charisma: 100, wisdom: 100 } })
@@ -708,7 +708,7 @@ function towerofdoom_setcoins() {
                     return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
                 };
             
-                if (window.location.pathname == '/tower/battle' || window.location.pathname == '/tower/start' || window.location.pathname == "/tower/shop") {
+                if (window.location.pathname == '/tower/battle' || window.location.pathname == '/tower/start' || window.location.pathname == '/tower/shop') {
                     try {
                         reactHandler().stateNode.props.setTowerCoins(Number(parseFloat(prompt('How many coins do you want?'))));
             
@@ -721,7 +721,7 @@ function towerofdoom_setcoins() {
 }
 function blookware_help() {
     console.log("Blookware Help Menu")
-    console.log("Blookware version 1.2.0")
+    console.log("Blookware version 1.2.1")
     console.log("Developer: Alex Flax (AviaAlex on GitHub)")
     console.log("Blookware is a command-line operated Blooket hack library made with JavaScript.")
     console.log("-------------------------------------------------")
