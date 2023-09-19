@@ -7,9 +7,10 @@ How to initialize Blookware:<br>
 3. Paste the code inside of the console.<br>
 
 How to run hacks:<br>
-1. Type in the name of the game (all lowercase)<br>
-2. Place an underscore (_)<br>
-3. Type the name of the hack you want to use. <br>
+1. Press Ctrl+Shift+I
+2. Navigate to the Console tab
+3. Type in blookware_loadui()
+4. Enjoy!
 
 # Upcoming features<br>
 v1.1.0: Adding a blookware_help() function to help you if you don't know what command to run.<br>
@@ -20,3 +21,4 @@ v1.1.1: Fixed a few bugs here and there to make Blookware run better on your com
 v1.2.0: Obfuscated Blookware to make it harder for Blooket anti hack to detect.<br>
 v1.2.1: Fixed an issue where in Tower of Doom, you could not edit your coins in a shop.<br>
 v1.3.0: Made a plugin loader feature.<br>
+v1.4.0 The hacks used in this loader got patched, so we had to develop a new version of the hacks.
