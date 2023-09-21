@@ -1,5 +1,5 @@
 console.log("Blookware 1.4.0")
-console.log("Loading libraries, please wait...")
+console.log("Loading libraries, please wait.")
 (() => {
     const cheat = (async () => {
         if (String(Function.prototype.call).includes('native')) {
