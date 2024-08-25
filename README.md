@@ -1,5 +1,6 @@
 # Blookware
 Blookware is a library of Blooket hacks to use in and out of game.<br>
+⚠️ BLOOKWARE IS NO LONGER MAINTAINED. IF BUGS HAPPEN, DO NOT REPORT THEM. ⚠️<br>
 To use Blookware, simply paste the Javascript code into your browser and use the functions in the terminal as you wish.<br>
 How to initialize Blookware:<br>
 1. Ctrl+Shift+I<br>
